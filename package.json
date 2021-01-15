@@ -2,7 +2,7 @@
   "name": "tst-HK",
   "description": "Ghost Theme for tst.bar",
   "demo": "https://tst.bar",
-  "version": "0.5.0",
+  "version": "0.5.2",
   "engines": {
     "ghost": ">=3.0.0",
     "ghost-api": "v3"
