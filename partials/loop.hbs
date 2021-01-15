@@ -1,0 +1,36 @@
+<div class="extra-pagination">
+	{{pagination}}
+</div>
+
+{{#foreach posts}}
+<article class="{{post_class}}">
+	<div class="inner">
+		<div class="box post-box">
+			{{#has tag="#up"}}
+			<h2 class="post-title draft"><a href="{{url}}">{{t "[Draft] "}}{{{title}}}</a></h2>
+			{{else}}
+			<h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
+			{{/has}}
+			<span class="post-meta">
+				<!-- {{t "typed by"}} -->
+				<!-- {{authors separator=", "}} -->
+				{{t "on"}}
+				<time datetime="{{date format='DD-MM-YYYY'}}">{{date format="DD MMMM YYYY"}}
+				</time>
+				{{#primary_tag}}
+					{{t "—"}} <a class="post-meta-tag" href="{{url}}">{{name}}
+					</a>
+				{{/primary_tag}}
+			</span>
+			<p class="post-excerpt">{{excerpt}}
+				{{#has tag="#bit"}}
+				{{else}}
+				<span class="post-excerpt-more">[<a href="{{url}}">&hellip;mmhmm&hellip;</a>]</span>
+				{{/has}}
+			</p>
+		</div>
+	</div>
+</article>
+{{/foreach}}
+
+{{pagination}}

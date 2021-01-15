@@ -1,0 +1,53 @@
+{
+  "name": "tst-HK",
+  "description": "Ghost Theme for tst.bar",
+  "demo": "https://tst.bar",
+  "version": "0.5.0",
+  "engines": {
+    "ghost": ">=3.0.0",
+    "ghost-api": "v3"
+  },
+  "license": "MIT",
+  "screenshots": {
+    "desktop": "src/screenshot-desktop.jpg",
+    "mobile": "src/screenshot-mobile.jpg"
+  },
+  "author": {
+    "name": "Truman Stormgen CHAI",
+    "email": "hello@tst.bar",
+    "url": "https://tst.bar"
+  },
+  "gpm": {
+    "type": "theme",
+    "categories": [
+      "Minimal",
+      "Personal Blogs"
+    ]
+  },
+  "keywords": [
+    "ghost-theme",
+    "ghost",
+    "theme",
+    "dark"
+  ],
+  "config": {
+    "posts_per_page": 9,
+    "image_sizes": {
+      "s": {
+        "width": 320
+      },
+      "m": {
+        "width": 640
+      },
+      "l": {
+        "width": 960
+      },
+      "xl": {
+        "width": 1920
+      }
+    }
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
