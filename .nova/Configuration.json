@@ -1,3 +1,6 @@
 {
-  "workspace.color" : 2
+  "index.ignored_file_patterns" : [
+    ".DS_Store"
+  ],
+  "workspace.color" : 3
 }
