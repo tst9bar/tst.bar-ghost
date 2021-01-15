@@ -1,5 +1,5 @@
 {
-  "name": "tst-HK",
+  "name": "tst9bar_Hongkong",
   "description": "Ghost Theme for tst.bar",
   "demo": "https://tst.bar",
   "version": "0.5.2",
@@ -13,7 +13,7 @@
     "mobile": "src/screenshot-mobile.jpg"
   },
   "author": {
-    "name": "Truman Stormgen CHAI",
+    "name": "Truman Stormgen CHAI" "tst9bar",
     "email": "hello@tst.bar",
     "url": "https://tst.bar"
   },
