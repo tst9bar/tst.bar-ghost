@@ -68,10 +68,10 @@ td,th{padding:0}
 	font-family:'creamfont', serif;
 	font-weight:400;
 }
-@font-face{
+/* @font-face{
 	font-family:'datw5', cursive;
 	font-weight:600;
-}
+} */
 /* @font-face{
 	font-family:'datk6', cursive;
 	font-weight:600;
@@ -1122,7 +1122,7 @@ display:flex;margin-bottom:2rem;font-size:2em;line-height:1em}
 
 
 .post-content p{
-	font-family:'Josefin Slab', 'jf-jinxuan', serif;
+	font-family:'Josefin Slab', 'creamfont', serif;
 	margin:0 0 3.1rem;
 	opacity: 0.8;
 }
