@@ -1079,6 +1079,9 @@ display:flex;margin-bottom:2rem;font-size:2em;line-height:1em}
 	margin:0 0 3.1rem;
 	opacity: 0.8;
 }
+.post-content p:empty{
+	height: 3.1rem;
+}
 
 
 .post-content a{
