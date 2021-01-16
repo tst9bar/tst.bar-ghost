@@ -3,7 +3,7 @@
 		<div class="box pagination-box">
 			{{#if next}}
 			<a title="{{t "Previous Posts"}}" class="pagination-prev" href="{{page_url next}}">
-				<span class="pagination-label">{{t "<<<"}}</span> 
+				<span class="pagination-label">{{t "{{date published_at format="MMMM YYYY"}}"}}</span> 
 				<!-- <i class="icon icon-arrow-right"></i> -->
 			</a>
 			{{/if}}
