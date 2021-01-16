@@ -721,11 +721,11 @@ display:flex;margin-bottom:2rem;font-size:2em;line-height:1em}
 	border-color:#ff7a29;
 }
 .pagination .pagination-prev{
-	float:right;
+	float:left;
 	padding-right:1.5rem
 }
 .pagination .pagination-next{
-	float:left;
+	float:right;
 	padding-left:1.5rem
 }
 .pagination .pagination-label{
