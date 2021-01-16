@@ -39,35 +39,35 @@ td,th{padding:0}
 
 
 
-@font-face{
+/* @font-face{
 	font-family:'Overlock', cursive;
 	font-style:normal;
 	font-weight:700;
-}	
-@font-face{
+} */
+/* @font-face{
 	font-family:'Josefin Slab', serif;
 	font-style:normal;
 	font-weight:500;	/* 400 too thin especially in dark */
-}
-@font-face{
+} */
+/* @font-face{
 	font-family:'Josefin Slab', serif;
 	font-style:italic;
 	font-weight:400;
-}
-@font-face{
+} */
+/* @font-face{
 	font-family:'Josefin Slab', serif;
 	font-style:normal;
 	font-weight:700;
-}
-@font-face{
+} */
+/* @font-face{
 	font-family:'Josefin Slab', serif;
 	font-style:italic;
 	font-weight:700;
-}
-@font-face{
+} */
+/* @font-face{
 	font-family:'creamfont', serif;
 	font-weight:400;
-}
+} */
 /* @font-face{
 	font-family:'datw5', cursive;
 	font-weight:600;
@@ -76,53 +76,6 @@ td,th{padding:0}
 	font-family:'datk6', cursive;
 	font-weight:600;
 } */
-
-
-
-/* @font-face{
-	font-family:'icon';
-	src:url("../font/icon.eot?89549845");
-	src:url("../font/icon.eot?89549845#iefix") format("embedded-opentype"),url("../font/icon.woff2?89549845") format("woff2"),url("../font/icon.woff?89549845") format("woff"),url("../font/icon.ttf?89549845") format("truetype"),url("../font/icon.svg?89549845#icon") format("svg");
-	font-weight:normal;
-	font-style:normal
-}
-	[class^="icon-"]:before,[class*=" icon-"]:before{
-		font-family:"icon";
-		font-style:normal;
-		font-weight:normal;
-		speak:none;
-		display:inline-block;
-		text-decoration:inherit;
-		width:1em;
-		margin-right:0.2em;
-		text-align:center;
-		font-variant:normal;
-		text-transform:none;
-		line-height:1em;
-		margin-left:0.2em;
-		-webkit-font-smoothing:antialiased;
-		-moz-osx-font-smoothing:grayscale
-	}
-.icon-star:before{content:'\e800'}
-.icon-mail:before{content:'\e801'}
-.icon-globe:before{content:'\e802'}
-.icon-arrow-left:before{content:'\e803'}
-.icon-arrow-right:before{content:'\e804'}
-.icon-search:before{content:'\e805'}
-.icon-rss:before{content:'\e807'}
-.icon-twitter:before{content:'\f099'}
-.icon-facebook:before{content:'\f09a'}
-.icon-menu:before{content:'\f0c9'}
-.icon-linkedin:before{content:'\f0e1'} */
-/* @font-face{
-	font-family:'Fira Sans';font-style:normal;font-weight:400;src:url("../font/fira-sans-v8-latin-regular.eot");src:local("Fira Sans Regular"),local("FiraSans-Regular"),url("../font/fira-sans-v8-latin-regular.eot?#iefix") format("embedded-opentype"),url("../font/fira-sans-v8-latin-regular.woff2") format("woff2"),url("../font/fira-sans-v8-latin-regular.woff") format("woff"),url("../font/fira-sans-v8-latin-regular.ttf") format("truetype"),url("../font/fira-sans-v8-latin-regular.svg#FiraSans") format("svg")}
-@font-face{
-	font-family:'Fira Sans';font-style:normal;font-weight:500;src:url("../font/fira-sans-v8-latin-500.eot");src:local("Fira Sans Medium"),local("FiraSans-Medium"),url("../font/fira-sans-v8-latin-500.eot?#iefix") format("embedded-opentype"),url("../font/fira-sans-v8-latin-500.woff2") format("woff2"),url("../font/fira-sans-v8-latin-500.woff") format("woff"),url("../font/fira-sans-v8-latin-500.ttf") format("truetype"),url("../font/fira-sans-v8-latin-500.svg#FiraSans") format("svg")}
-@font-face{
-	font-family:'Fira Sans';font-style:normal;font-weight:700;src:url("../font/fira-sans-v8-latin-700.eot");src:local("Fira Sans Bold"),local("FiraSans-Bold"),url("../font/fira-sans-v8-latin-700.eot?#iefix") format("embedded-opentype"),url("../font/fira-sans-v8-latin-700.woff2") format("woff2"),url("../font/fira-sans-v8-latin-700.woff") format("woff"),url("../font/fira-sans-v8-latin-700.ttf") format("truetype"),url("../font/fira-sans-v8-latin-700.svg#FiraSans") format("svg")} */
-
-
-
 
 
 .hljs{display:block;color:#66645c;-webkit-text-size-adjust:none}
