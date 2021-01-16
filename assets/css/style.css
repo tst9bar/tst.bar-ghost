@@ -689,7 +689,11 @@ display:flex;margin-bottom:2rem;font-size:2em;line-height:1em}
 	padding-top:calc(2rem + 1vw);
 	padding-bottom:calc(2rem + 1vw)
 }
-.pagination .pagination-box:after{clear:both;content:'';display:table}
+.pagination .pagination-box:after{
+	clear:both;
+	content:'';
+	display:table
+}
 
 .pagination a{
 	position:relative;
@@ -706,26 +710,68 @@ display:flex;margin-bottom:2rem;font-size:2em;line-height:1em}
 	text-decoration:none;
 	color:#909499;
 	transition:all ease 0.2s;
-	border-radius:4rem;
+	/* border-radius:4rem; */
+	border-radius:1rem;
 	box-sizing:border-box
 }
 	@media (prefers-color-scheme: dark){.pagination a{border-color:#909499;color:#c4c7cc}}
 .pagination a:focus,.pagination a:hover{
-	color:#d13f21;
-	border-color:#d13f21
+	/* color:#d13f21; */
+	color:#ff7a29;
+	border-color:#ff7a29;
 }
-.pagination .pagination-prev{float:right;padding-right:1.5rem}
-.pagination .pagination-next{float:left;padding-left:1.5rem}.pagination .pagination-label{position:relative;top:-1px;display:inline-block}
-	@media only screen and (max-width: 480px){.pagination .pagination-label{display:none}}	
-.pagination a i{position:relative;top:1px;width:auto;margin:auto 4px;color:inherit;font-size:1.33334em;line-height:0.75em}
-.pagination a i:before{position:relative;width:auto;margin:auto}
-.pagination .pagination-info{position:absolute;width:100%;font-size:1.5em;line-height:4rem;height:4rem;left:0;z-index:50;display:block;text-align:center;color:#909499}
-.extra-pagination{display:none}
-.paged .extra-pagination{display:block}
-.paged .extra-pagination .pagination-box{border-bottom:1px solid #e1e3e6}
+.pagination .pagination-prev{
+	float:right;
+	padding-right:1.5rem
+}
+.pagination .pagination-next{
+	float:left;
+	padding-left:1.5rem
+}
+.pagination .pagination-label{
+	position:relative;
+	top:-1px;
+	display:inline-block
+}
+	@media only screen and (max-width: 480px){.pagination .pagination-label{display:none}}
+.pagination a i{
+	position:relative;
+	top:1px;
+	width:auto;
+	margin:auto 4px;
+	color:inherit;
+	font-size:1.33334em;
+	line-height:0.75em
+}
+.pagination a i:before{
+	position:relative;
+	width:auto;
+	margin:auto
+}
+.pagination .pagination-info{
+	position:absolute;
+	width:100%;
+	font-size:1.5em;
+	line-height:4rem;
+	height:4rem;
+	left:0;
+	z-index:50;
+	display:block;
+	text-align:center;
+	color:#909499;
+}
+.extra-pagination{
+	display:none
+}
+.paged .extra-pagination{
+	display:block
+}
+.paged .extra-pagination .pagination-box{
+	border-bottom:1px solid #e1e3e6
+}
 	@media (prefers-color-scheme: dark){.paged .extra-pagination .pagination-box{border-color:#3b3d40}}
 
-	
+
 
 
 /* ---- ### search -------- */	
