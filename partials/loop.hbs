@@ -9,7 +9,11 @@
 			{{#has tag="#up"}}
 			<h2 class="post-title draft"><a href="{{url}}">{{t "[Draft] "}}{{{title}}}</a></h2>
 			{{else}}
-			<h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
+				{{#has tag="#sm"}}
+				<h2 class="post-title" style="display: none"><a href="{{url}}">{{{title}}}</a></h2>
+				{{else}}
+				<h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
+				{{/has}}
 			{{/has}}
 			<span class="post-meta">
 				<!-- {{t "typed by"}} -->
