@@ -3,7 +3,7 @@
 		<div class="box pagination-box">
 			{{#if next}}
 			<a title="{{t "Previous Posts"}}" class="pagination-prev" href="{{page_url next}}">
-				<span class="pagination-label">
+				<span class="pagination-label">{{t "<<<"}}
 					{{#post}}
 					{{#get "posts" limit="1"}}
 					{{date published_at format="MMMM YYYY"}}
@@ -30,3 +30,7 @@
 		</div>
 	</div>
 </div> -->
+<div id="pagination-buttons" style="text-align:center;">
+	<button id="prev-posts" disabled><a>Previous Posts</a></button>
+	<button id="next-posts"><a>Next Posts</a></button>
+</div>
