@@ -69,18 +69,29 @@ $.ajax({
 function insertPost(postData, authorData) {
 	//start the inserting of the html
 	var postInfo = '<article class="post">\
-			<header class="post-header">\
-				<h2 class="post-title"><a href="' + postData.url + '">' + postData.title + '</a></h2>\
-			</header>\
+			<div class="inner">\
+				<div class="box post-box">\
+					<h2 class="post-title"><a href="' + postData.url + '">' + postData.title + '</a></h2>\
+					<span class="post-meta">' on '\
+						<time datetime="' + postData.published_at + '">' + postData.published_at + '</time>\
+					</span>\
+					<p class="post-excerpt">{{excerpt}}
+					{{#has tag="#bit, #sm"}}
+					{{else}}
+						<span class="post-excerpt-more">[<a href="{{url}}">&hellip;mmhmm&hellip;</a>]</span>
+					{{/has}}
+					</p>
+				</div>\
+			</div>\
 			<section class="post-excerpt">\
 				<p>' + postData.markdown + '<a class="read-more" href="' + postData.url + '">&raquo;</a></p>\
 			</section>\
 			<footer class="post-meta">'
 
 	//if no author image, dont include it
-	if (authorData.Image != null) {
-		postInfo += '<img class="author-thumb" src="' + authorData.image + '" alt="' + authorData.name + '" nopin="nopin" />'
-	}
+	//if (authorData.Image != null) {
+	//	postInfo += '<img class="author-thumb" src="' + authorData.image + '" alt="' + authorData.name + '" nopin="nopin" />'
+	//}
 
 	//if there are tags, add each of them to the post
 	if (postData.tags.length > 0) {
