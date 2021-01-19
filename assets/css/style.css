@@ -1215,23 +1215,23 @@ display:flex;margin-bottom:2rem;font-size:2em;line-height:1em}
 	display: block !important;
 	font-family:'Josefin Slab', 'creamfont', serif;
 	font-style:italic;
+	font-size: 1.9rem;
+	line-height:3.0rem;
 	/* font-weight:300; */
-	opacity: 0.8;
-	margin:0 0 3.1rem 2em;
+	text-align:justify;
+	opacity: 0.9;
+	margin:0 0 3.1rem 1.5em;
 	padding:0.25em 5em 0.25em 1em;
 	/* padding-left: 19px; */
 	-moz-box-sizing:border-box;
-	box-sizing:border-box;
+	box-sizing: content-box
 	border-left:0.25rem solid #fa00f9;
 	/* border-color: rgba(0,0,0,0.15); */
 	/* border-width: 0 0 0 7px; */
 }
-	@media (prefers-color-scheme: dark){.post-content blockquote{font-weight:300;opacity: 0.8;}}
-	@media only screen and (max-width: 680px){.post-content blockquote{margin:0 0 3.1rem 5%;padding:0.25em 15% 0.25em 5%;}}
+	@media (prefers-color-scheme: dark){.post-content blockquote{font-weight:300;opacity: 0.9;}}
+	@media only screen and (max-width: 680px){.post-content blockquote{text-align:left;margin:0 0 3.1rem 4%;padding:0.25em 12% 0.25em 4%;}} /* [] fix jumping space when resize */
 	
-
-
-
 
 /* ### blockquote inline 
 width: 40%; 
@@ -1241,7 +1241,6 @@ float: right;
 display: inline; 
 font-size: 22px; 
 line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span> text stand out! </span></blockquote> */
-
 
 .post-content blockquote *{
 	margin:0 0 1em;
