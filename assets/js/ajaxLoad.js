@@ -72,8 +72,7 @@ function insertPost(postData, authorData) {
 			<div class="inner">\
 				<div class="box post-box">\
 					<h2 class="post-title"><a href="' + postData.url + '">' + postData.title + '</a></h2>\
-					<span class="post-meta">' on '\
-						<time datetime="' + postData.published_at + '">' + postData.published_at + '</time>\
+					<span class="post-meta">' on ' + <time datetime="' + postData.published_at + '">' + postData.published_at + '</time>\
 					</span>\
 					<p class="post-excerpt">{{excerpt}}
 					{{#has tag="#bit, #sm"}}
