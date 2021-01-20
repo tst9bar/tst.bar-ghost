@@ -162,8 +162,9 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	position:relative;
 	padding-top:calc(16rem + 4vw);
 }
-	@media only screen and (max-width: 640px){.blog-header{padding-top:0;padding-right:10rem}}
-.a
+	@media only screen and (max-width: 640px){.blog-header{padding-top:calc(16rem + 4vw);}}
+
+
 .blog-header.has-cover{
 	padding-top:calc(24rem + 8vw);
 	color:#fafafa;
@@ -227,18 +228,67 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 .blog-name{
 	display:block;
 	margin:0;
-	margin-bottom: 1rem;
 	padding:0;
-	font-family:'Overlock', cursive;
+	font-family:'Monoton', cursive;
 	font-style:normal;
-	font-weight:700;
-	font-size:6em;	/* 7.6 */
-	line-height:1em;
+	font-weight:400;
+	font-size:5.6rem;
+	font-size:11.2rem;
+	line-height:2em;
 	text-decoration:none;
 	/* color:#000; */
 	color:#fafafa;
 }
 	@media (prefers-color-scheme: dark){.blog-name{color:#fafafa}}
+	
+.blog-name a {
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.blog-name p:nth-child(1) a {
+  color: #fff;
+  font-family: Monoton;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+.blog-name p:nth-child(1) a:hover {
+  color: #FF1177;
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+}
+
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+  }
+}
+@-moz-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+  }
+}
+@keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+  }
+}
+	@media only screen and (max-width: 1024px){.blog-name{font-size:calc(5.6rem + (112-56) * (100vw - 320px) / (1024-320))}}
+	@media only screen and (min-width: 1024px){.blog-name{font-size:11.2rem}}
+	
+	
 .has-cover .blog-name{
 	color:#fafafa
 }
@@ -248,11 +298,11 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	font-family:'Josefin Slab', serif;
 	display:block;
 	/* margin-top:1rem; */
+	margin:0;
 	padding:0;
 	font-size:2.9rem;
 	/* font-size:3.2rem; */
 	line-height:1.2em;
-	/* color:#909499; */
 	/* color:#fafafa; */
 	color:#909499;
 }
