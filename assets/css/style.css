@@ -287,8 +287,8 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 70px #FF1177;
 	}
 }
-	@media only screen and (max-width: 320px){.blog-name{font-size:5.6rem}}	
-	@media only screen and (max-width: 1024px){.blog-name{font-size:calc(5.6rem + (112 - 56) * ((100vw - 320px) / (1024 - 320)))}}
+	/* @media only screen and (max-width: 320px){.blog-name{font-size:5.6rem}} */	
+	@media only screen and (min-width: 320px){.blog-name{font-size:calc(56px + (112 - 56) * ((100vw - 320px) / (1024 - 320)))}}
 	@media only screen and (min-width: 1024px){.blog-name{font-size:11.2rem}}
 	
 	
