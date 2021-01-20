@@ -233,7 +233,7 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	font-style:normal;
 	font-weight:400;
 	font-size:5.6rem;
-	font-size:11.2rem;
+	/* font-size:11.2rem; */
 	/* line-height:2em; */
 	line-height:1.5em;
 	margin-top:0.25em;
@@ -242,6 +242,9 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	/* color:#000; */
 }
 	/* @media (prefers-color-scheme: dark){.blog-name{color:#fafafa}} */
+	/* @media only screen and (max-width: 748px){.blog-name{font-size:5.6rem}} */	
+	/* @media only screen and (min-width: 320px){.blog-name{font-size:calc(56px + (112 - 56) * ((100vw - 320px) / (1024 - 320)))}} */
+	@media only screen and (min-width: 1024px){.blog-name{font-size:11.2rem}}
 .blog-name a {
 	text-decoration: none;
 	webkit-transition: all 0.5s;
@@ -287,9 +290,6 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 70px #FF1177;
 	}
 }
-	/* @media only screen and (max-width: 320px){.blog-name{font-size:5.6rem}} */	
-	@media only screen and (min-width: 320px){.blog-name{font-size:calc(56px + (112 - 56) * ((100vw - 320px) / (1024 - 320)))}}
-	@media only screen and (min-width: 1024px){.blog-name{font-size:11.2rem}}
 	
 	
 .has-cover .blog-name{
@@ -643,6 +643,7 @@ display:flex;margin-bottom:2rem;font-size:2em;line-height:1em}
 	border-bottom:1px solid #e1e3e6
 }	
 	@media (prefers-color-scheme: dark){.container .post .post-box{border-color:#3b3d40}}
+	@media only screen and (min-width: 680px){{.container .post .post-box{padding-left: 5px}}
 .container #results .post .post-box{
 	border-top:1px solid #e1e3e6
 }
