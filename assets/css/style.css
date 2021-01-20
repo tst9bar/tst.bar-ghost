@@ -347,7 +347,7 @@ span.badge-nightly {
 	padding-bottom:calc(4rem + 2vw);border-bottom:1px solid #e1e3e6}
 	@media (prefers-color-scheme: dark){.archive.archive-box{border-color:#3b3d40}}
 .archive .archive-info{
-display:flex;margin-bottom:2rem;font-size:2em;line-height:1em}
+	display:flex;margin-bottom:2rem;font-size:2em;line-height:1em}
 .archive .archive-info .archive-type{color:#e05431}
 .archive .archive-info .archive-count{position:relative;margin-left:3rem;color:#909499}
 .archive .archive-info .archive-count:after{content:'';position:absolute;left:-2rem;top:50%;width:1rem;height:1px;background:#c4c7cc}
@@ -643,7 +643,7 @@ display:flex;margin-bottom:2rem;font-size:2em;line-height:1em}
 	border-bottom:1px solid #e1e3e6
 }	
 	@media (prefers-color-scheme: dark){.container .post .post-box{border-color:#3b3d40}}
-	@media only screen and (min-width: 680px){{.container .post .post-box{padding-left: 5px}}
+	@media only screen and (min-width: 680px){{.container .post .post-box{padding-left: 5px}}}
 .container #results .post .post-box{
 	border-top:1px solid #e1e3e6
 }
