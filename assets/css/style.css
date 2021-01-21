@@ -245,7 +245,7 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	/* @media only screen and (max-width: 748px){.blog-name{font-size:5.6rem}} */	
 	/* @media only screen and (min-width: 320px){.blog-name{font-size:calc(56px + (112 - 56) * ((100vw - 320px) / (1024 - 320)))}} */
 	@media only screen and (min-width: 1024px){.blog-name{font-size:11.2rem}}
-.blog-name{
+.blog-name a{
 	text-decoration: none;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
