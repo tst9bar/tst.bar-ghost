@@ -226,9 +226,10 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 
 /* ---- ### blog header -------- */
 .blog-name{
-	display:block;
-	width:fit-content;
+	/* display:block; */
+	/* width:fit-content; */
 	margin:0.25em auto 0.25em auto;
+	margin:0;
 	padding:0;
 	text-align:center;
 	font-family:'Monoton';
@@ -237,38 +238,37 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	font-size:5.6rem;
 	/* font-size:11.2rem; */
 	line-height:1.5em;
-	text-decoration:none;
-	background:none;
 	/* color:#000; */
+	color: #FF1177;
 	letter-spacing:0.08em;
-	-webkit-backface-visibility:hidden;
-	 -webkit-transform:translate3d(0, 0, 0);
 }
 	/* @media (prefers-color-scheme: dark){.blog-name{color:#fafafa}} */
 	/* @media only screen and (max-width: 748px){.blog-name{font-size:5.6rem}} */	
 	/* @media only screen and (min-width: 320px){.blog-name{font-size:calc(56px + (112 - 56) * ((100vw - 320px) / (1024 - 320)))}} */
 	@media only screen and (min-width: 1024px){.blog-name{font-size:11.2rem}}
+
+
 .blog-name a{
 	text-decoration: none;
+	color: #fff;
+	/* color: #FF1177; */
+	font-family:'Monoton';
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
-	-webkit-backface-visibility:hidden;
-	 -webkit-transform:translate3d(0, 0, 0);
-	z-index:100;
-	color: #fff;
-	font-family:'Monoton';
 	-webkit-animation: neon1 1.5s ease-in-out infinite alternate;
 	-moz-animation: neon1 1.5s ease-in-out infinite alternate;
 	animation: neon1 1.5s ease-in-out infinite alternate;
 }
 .blog-name a:hover{
 	color: #FF1177;
+	/* color: #fff; */
 	-webkit-animation: none;
 	-moz-animation: none;
 	animation: none;
 }
-	@media (prefers-color-scheme: light){.blog-name a{color: #FF1177;-webkit-animation: none;-moz-animation: none;animation: none;-color:#3b3d40}}
+	@media (prefers-color-scheme: light){.blog-name a:hover{color: #000;}}
 
 /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177 */
 /* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177 */
