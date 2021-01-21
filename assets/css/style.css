@@ -176,7 +176,7 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	display:none}
 .blog-header .blog-box{
 	position:relative;
-	z-index:10;
+	/* z-index:10; */
 	padding-bottom:calc(4rem + 2vw);
 	text-align:center;
 	border-bottom:1px solid #e1e3e6
@@ -227,19 +227,19 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 /* ---- ### blog header -------- */
 .blog-name{
 	/* display:block; */
-	margin:0;
+	/* width:fit-content; */		
+	margin:0.25em auto 0.25em auto;
+	/* margin:0; */
 	padding:0;
+	text-align:center;
 	font-family:'Monoton';
 	font-style:normal;
 	font-weight:400;
 	font-size:5.6rem;
 	/* font-size:11.2rem; */
-	/* line-height:2em; */
-	line-height:1.5em;
-	margin-top:0.25em;
-	margin-bottom:0.25em;
-	text-decoration:none;
 	/* color:#000; */
+	color: #FF1177;		
+	letter-spacing:0.08em;
 }
 	/* @media (prefers-color-scheme: dark){.blog-name{color:#fafafa}} */
 	/* @media only screen and (max-width: 748px){.blog-name{font-size:5.6rem}} */	
@@ -247,26 +247,29 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	@media only screen and (min-width: 1024px){.blog-name{font-size:11.2rem}}
 .blog-name a {
 	text-decoration: none;
-	webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	transition: all 0.5s;
-}
-.blog-name a {
-	color: #fff;
 	font-family: Monoton;
+	color: #fff;
+	/* webkit-transition: all 0.5s; */
+	/* -moz-transition: all 0.5s; */
+	/* transition: all 0.5s; */
 	-webkit-animation: neon1 1.5s ease-in-out infinite alternate;
 	-moz-animation: neon1 1.5s ease-in-out infinite alternate;
 	animation: neon1 1.5s ease-in-out infinite alternate;
-}
+
+
 .blog-name a:hover {
+	color: #FFF;
 	color: #FF1177;
-	webkit-animation: none;
+	-webkit-animation: none;
 	-moz-animation: none;
 	animation: none;
 }
+	@media (prefers-color-scheme: light){.blog-name a:hover{color: #000;}}
+	
+	
 /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177 */
 /* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177 */
-@-webkit-keyframes neon1 {
+/* @-webkit-keyframes neon1 {
 	from {
 		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 140px #FF1177;
 	}
@@ -289,7 +292,7 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	to {
 		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 70px #FF1177;
 	}
-}
+} */
 	
 	
 .has-cover .blog-name{
@@ -643,7 +646,7 @@ span.badge-nightly {
 	border-bottom:1px solid #e1e3e6
 }	
 	@media (prefers-color-scheme: dark){.container .post .post-box{border-color:#3b3d40}}
-	/* @media only screen and (min-width: 680px){{.container .post .post-box{padding-left: 5px}}} */
+	@media only screen and (min-width: 680px){{.container .post .post-box{padding-left: 5px}}} /* [ ] what */
 .container #results .post .post-box{
 	border-top:1px solid #e1e3e6
 }
@@ -1276,15 +1279,14 @@ span.badge-nightly {
 	opacity: 0.9;
 	margin:0 0 3.1rem 1.5em;
 	padding:0.25em 5em 0.25em 1em;
-	/* padding-left: 19px; */
-	-moz-box-sizing:border-box;
-	box-sizing: content-box
+	/* -moz-box-sizing:border-box; */
+	/* box-sizing: content-box */
 	border-left:0.25rem solid #fa00f9;
 	/* border-color: rgba(0,0,0,0.15); */
 	/* border-width: 0 0 0 7px; */
 }
 	@media (prefers-color-scheme: dark){.post-content blockquote{font-weight:300;opacity: 0.9;}}
-	@media only screen and (max-width: 680px){.post-content blockquote{text-align:left;margin:0 0 3.1rem 4%;padding:0.25em 12% 0.25em 4%;}} /* [] fix jumping space when resize */
+	@media only screen and (max-width: 680px){.post-content blockquote{text-align:left;margin:0 0 3.1rem 3%;padding:0.2em 10% 0.2em 4%;}} /* [ ] fix jumping space when resize */
 	
 
 /* ### blockquote inline 
