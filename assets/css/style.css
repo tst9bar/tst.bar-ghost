@@ -241,6 +241,8 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	background:none;
 	/* color:#000; */
 	letter-spacing:0.08em;
+	-webkit-backface-visibility:hidden;
+	 -webkit-transform:translate3d(0, 0, 0);
 }
 	/* @media (prefers-color-scheme: dark){.blog-name{color:#fafafa}} */
 	/* @media only screen and (max-width: 748px){.blog-name{font-size:5.6rem}} */	
@@ -248,16 +250,17 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	@media only screen and (min-width: 1024px){.blog-name{font-size:11.2rem}}
 .blog-name a{
 	text-decoration: none;
-	-webkit-backface-visibility: hidden;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
-	/* z-index:100; */
+	-webkit-backface-visibility:hidden;
+	 -webkit-transform:translate3d(0, 0, 0);
+	z-index:100;
 	color: #fff;
 	font-family:'Monoton';
-	-webkit-animation: neon1 0.5s ease-in-out infinite alternate;
-	-moz-animation: neon1 0.5s ease-in-out infinite alternate;
-	animation: neon1 0.5s ease-in-out infinite alternate;
+	-webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+	-moz-animation: neon1 1.5s ease-in-out infinite alternate;
+	animation: neon1 1.5s ease-in-out infinite alternate;
 }
 .blog-name a:hover{
 	color: #FF1177;
