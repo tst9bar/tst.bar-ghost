@@ -265,7 +265,7 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	-moz-animation: none;
 	animation: none;
 }
-	@media (prefers-color-scheme: light){.blog-name a{-webkit-animation: none;-moz-animation: none;animation: none;-color:#3b3d40}}
+	@media (prefers-color-scheme: light){.blog-name a{color: #FF1177;-webkit-animation: none;-moz-animation: none;animation: none;-color:#3b3d40}}
 
 /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177 */
 /* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177 */
