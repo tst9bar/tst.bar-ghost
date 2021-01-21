@@ -249,7 +249,7 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	transition: all 0.5s;
 }
 .blog-name a {
-	z-index:-10;
+	z-index:-100;
 	color: #fff;
 	font-family:'Monoton';
 	-webkit-animation: neon1 1.5s ease-in-out infinite alternate;
