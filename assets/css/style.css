@@ -160,9 +160,9 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 /* ---- ### blog header wrapper -------- */
 .blog-header{
 	position:relative;
-	padding-top:calc(16rem + 4vw);
+	padding-top:calc(8rem + 4vw);
 }
-	@media only screen and (max-width: 640px){.blog-header{padding-top:calc(16rem + 4vw);}}
+	@media only screen and (max-width: 640px){.blog-header{padding-top:calc(8rem + 4vw);}}
 
 
 .blog-header.has-cover{
@@ -240,7 +240,7 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	line-height: 1.5em;
 	/* color:#000; */
 	color: #FF1177;		
-	letter-spacing:0.08em;
+	letter-spacing:0.07em;
 }
 	/* @media (prefers-color-scheme: dark){.blog-name{color:#fafafa}} */
 	/* @media only screen and (max-width: 748px){.blog-name{font-size:5.6rem}} */	
@@ -249,6 +249,7 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 .blog-name a {
 	text-decoration: none;
 	font-family: Monoton;
+	/* color: #FF1177; */	/* consider revert neon, red light white shawow */
 	color: #fff;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
