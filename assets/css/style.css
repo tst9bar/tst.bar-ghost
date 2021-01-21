@@ -252,10 +252,11 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	/* webkit-transition: all 0.5s; */
 	/* -moz-transition: all 0.5s; */
 	/* transition: all 0.5s; */
-	-webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-	-moz-animation: neon1 1.5s ease-in-out infinite alternate;
-	animation: neon1 1.5s ease-in-out infinite alternate;
-
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 140px #FF1177;
+	/* -webkit-animation: neon1 1.5s ease-in-out infinite alternate; */
+	/* -moz-animation: neon1 1.5s ease-in-out infinite alternate; */
+	/* animation: neon1 1.5s ease-in-out infinite alternate; */
+}
 
 .blog-name a:hover {
 	color: #FFF;
