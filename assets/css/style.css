@@ -1294,6 +1294,7 @@ color:#e1e3e6
 	font-size:2.0rem;
 	line-height:3.1rem;
 }
+	@media only screen and (max-width: 680px){.post-content{font-size:2.3rem;line-height:1.3em}}
 .post-content>*{
 	min-width:100%;
 	max-width:100%;
