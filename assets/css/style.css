@@ -854,7 +854,7 @@ color:#e1e3e6
 	font-weight:inherit;
 }
 	@media only screen and (max-width: 680px){.post-title{font-size:3.7rem;line-height:1.2em}}
-	@media only screen and (max-width: 980px){.post-title{font-size:3.9rem;line-height:1.3em}}
+	@media only screen and (max-width: 980px){.post-title{font-size:3.9rem;line-height:1.25em}}
 
 
 /* ---- ### post meta <span> for date author primary tag at home. loop.hbs -------- */
@@ -889,8 +889,8 @@ color:#e1e3e6
 	opacity:0.8;
 	/* color:inherit; */
 }
-	@media only screen and (max-width: 680px){.post-excerpt{font-size:2.3rem;line-height:1.565em}}
-	@media only screen and (max-width: 980px){.post-excerpt{font-size:2.4rem;line-height:3.8rem}}
+	@media only screen and (max-width: 680px){.post-excerpt{font-size:2.3rem;line-height:1.45em}}
+	@media only screen and (max-width: 980px){.post-excerpt{font-size:2.4rem;line-height:1.565em}}
 
 
 
