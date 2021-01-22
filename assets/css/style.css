@@ -889,7 +889,7 @@ color:#e1e3e6
 	opacity:0.8;
 	/* color:inherit; */
 }
-	@media only screen and (max-width: 680px){.post-excerpt{font-size:2.3rem;line-height:1.45em}}
+	@media only screen and (max-width: 680px){.post-excerpt{font-size:2.3rem;line-height:1.34em}}
 	@media only screen and (max-width: 980px){.post-excerpt{font-size:2.4rem;line-height:1.565em}}
 
 
