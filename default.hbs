@@ -24,35 +24,31 @@
 
 	<div class="nav-header">
 		<nav class="nav-wrapper" aria-label="{{t "Main"}}">
-				{{#if @site.logo}}
-				<span class="logo">
-					<a href="{{@site.url}}" title="{{t "Home"}}"><img src="{{@site.logo}}" alt="{{t "Logo"}}" /></a>
-				</span>
+			{{#if @site.logo}}
+			<span class="logo">
+				<a href="{{@site.url}}" title="{{t "Home"}}"><img src="{{@site.logo}}" alt="{{t "Logo"}}" /></a>
+			</span>
+			{{/if}}
+			{{navigation}}
+			<ul class="nav-side">
+				{{#if @site.twitter}}
+				<li class="nav-twitter"><a aria-label="Twitter" href="{{twitter_url}}" title="{{@site.twitter}}" target="_blank"><i class="icon icon-twitter" aria-hidden="true"></i></a></li>
 				{{/if}}
-				{{navigation}}
-				<ul class="nav-side">
-					{{#if @site.twitter}}
-					<li class="nav-twitter"><a aria-label="Twitter" href="{{twitter_url}}" title="{{@site.twitter}}" target="_blank"><i class="icon icon-twitter" aria-hidden="true"></i></a></li>
-					{{/if}}
-					{{#if @site.facebook}}
-					<li class="nav-facebook"><a aria-label="Facebook" href="{{facebook_url}}" title="{{@site.facebook}}" target="_blank"><i class="icon icon-facebook" aria-hidden="true"></i></a></li>
-					{{/if}}
-					{{#if @labs.subscribers}}
-					<li class="nav-subscribe"><a title="{{t "Subscribe"}}" href="{{@site.url}}/subscribe/" target="_blank"><i class="icon icon-mail" aria-hidden="true"></i></a></li>
-					{{/if}}
-					<li class="nav-rss"><a title="RSS" href="{{@site.url}}/rss/" target="_blank"><i class="icon icon-rss" aria-hidden="true"></i></a></li>
-					<li class="nav-search" style="display: none;"><a title="{{t "Search"}}"><i class="icon icon-search" aria-hidden="true"></i></a></li>
-				</ul>
+				{{#if @site.facebook}}
+				<li class="nav-facebook"><a aria-label="Facebook" href="{{facebook_url}}" title="{{@site.facebook}}" target="_blank"><i class="icon icon-facebook" aria-hidden="true"></i></a></li>
+				{{/if}}
+				{{#if @labs.subscribers}}
+				<li class="nav-subscribe"><a title="{{t "Subscribe"}}" href="{{@site.url}}/subscribe/" target="_blank"><i class="icon icon-mail" aria-hidden="true"></i></a></li>
+				{{/if}}
+				<li class="nav-rss"><a title="RSS" href="{{@site.url}}/rss/" target="_blank"><i class="icon icon-rss" aria-hidden="true"></i></a></li>
+				<li class="nav-search" style="display: none;"><a title="{{t "Search"}}"><i class="icon icon-search" aria-hidden="true"></i></a></li>
+			</ul>
 		</nav>
 
 		<div class="nav-wrapper-control">
 			<div class="inner">
-				<a class="nav-menu" role="button">
-					<i class="icon icon-menu" aria-hidden="true"></i>{{t "Menu"}}
-				</a>
-				<!-- <a class="nav-search" style="display: none;" title="{{t "Search"}}" role="button">
-					<i class="icon icon-search" aria-hidden="true"></i>
-				</a> -->
+				<a class="nav-menu" role="button"><i class="icon icon-menu" aria-hidden="true"></i>{{t "^"}}</a>
+				<!-- <a class="nav-search" style="display: none;" title="{{t "Search"}}" role="button"><i class="icon icon-search" aria-hidden="true"></i></a> -->
 			</div>
 		</div>
 	</div>
@@ -92,7 +88,7 @@
 		</ul>
 	</footer>
 
-	{{!-- Load basic scripts --}}
+{{!-- Load basic scripts --}}
 	<script type="text/javascript" src="{{asset "js/script.js"}}"></script>
 	<script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
 	<script type="text/javascript" src="{{asset "js/jquery-3.5.1.slim.min.js"}}"></script>
