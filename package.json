@@ -2,7 +2,7 @@
   "name": "tst9bar_Hongkong",
   "description": "Ghost Theme for tst.bar",
   "demo": "https://tst.bar",
-  "version": "0.5.3",
+  "version": "0.6",
   "engines": {
     "ghost": ">=3.0.0",
     "ghost-api": "v3"
@@ -31,7 +31,7 @@
     "dark"
   ],
   "config": {
-    "posts_per_page": 9,
+    "posts_per_page": 15,
     "image_sizes": {
       "s": {
         "width": 320
