@@ -445,9 +445,9 @@ justify-content:space-between
 	transition:all ease-out 0.2s;
 }
 .nav-header .nav-wrapper-control a i{
-	display:inline-block;
+	/* display:inline-block; */
 	display:none;
-	width:4rem
+	/* width:4rem; */
 }
 
 
@@ -457,10 +457,10 @@ text-align:right
 }
 	
 	
-.nav-header .nav-wrapper-control a:focus,.nav-header .nav-wrapper-control button:hover{
+.nav-header .nav-wrapper-control button:focus,.nav-header .nav-wrapper-control button:hover{
 color:#222426
 }
-	@media (prefers-color-scheme: dark){.nav-header .nav-wrapper-control a:focus,.nav-header .nav-wrapper-control a:hover{color:#e1e3e6}}
+	@media (prefers-color-scheme: dark){.nav-header .nav-wrapper-control button:focus,.nav-header .nav-wrapper-control button:hover{color:#e1e3e6}}
 	
 .cover-active .nav-header .nav-wrapper-control{
 color:#fafafa
