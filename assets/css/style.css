@@ -438,13 +438,15 @@ justify-content:space-between
 	display:block;
 	width:100%;
 	padding:2rem 0;
+	padding:0;
 	/* font-size:2rem; */
 	/* line-height:1em; */
 	color:inherit;
-	transition:all ease-out 0.1s;
+	transition:all ease-out 0.2s;
 }
 .nav-header .nav-wrapper-control a i{
 	display:inline-block;
+	display:none;
 	width:4rem
 }
 
