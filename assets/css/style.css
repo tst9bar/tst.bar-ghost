@@ -455,6 +455,8 @@ span.badge-nightly {
 	border-radius: 50%;
 	box-sizing: border-box;
 	overflow: hidden;
+	font-size: 2rem;
+	margin: 0;
 }
 .nav-header .nav-wrapper-control .button:before {
 	content: "";
