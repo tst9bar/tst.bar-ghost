@@ -424,7 +424,7 @@ color:#909499;
 border-top:1px solid transparent;
 box-sizing:border-box;
 transition:all linear 0.1s
-} /* toogle */
+} /* toogle wrapper */
 	@media (prefers-color-scheme: dark){.nav-header .nav-wrapper-control{color:#909499}}
 	@media only screen and (max-width: 640px){.nav-header .nav-wrapper-control{display:block}} /* toggle hidden unless below 640 */
 
@@ -438,8 +438,8 @@ justify-content:space-between
 	display:block;
 	width:100%;
 	padding:2rem 0;
-	font-size:2rem;
-	line-height:1em;
+	/* font-size:2rem; */
+	/* line-height:1em; */
 	color:inherit;
 	transition:all ease-out 0.1s;
 }
@@ -455,7 +455,7 @@ text-align:right
 }
 	
 	
-.nav-header .nav-wrapper-control a:focus,.nav-header .nav-wrapper-control a:hover{
+.nav-header .nav-wrapper-control a:focus,.nav-header .nav-wrapper-control button:hover{
 color:#222426
 }
 	@media (prefers-color-scheme: dark){.nav-header .nav-wrapper-control a:focus,.nav-header .nav-wrapper-control a:hover{color:#e1e3e6}}
@@ -470,9 +470,11 @@ color:#fafafa
 }
 	@supports (-webkit-backdrop-filter: blur(2rem)){.menu-active .nav-header .nav-wrapper-control{background:rgba(34,36,38,0.9);-webkit-backdrop-filter:blur(2rem)}}
 	
-.menu-active .nav-header .nav-wrapper-control a:focus,.menu-active .nav-header .nav-wrapper-control a:hover{
+.menu-active .nav-header .nav-wrapper-control a:focus,.menu-active .nav-header .nav-wrapper-control button:hover{
 color:#e1e3e6
 }
+
+
 .nav-header .nav-wrapper{
 	display:flex;
 	max-height:calc(100vh - 6rem);
