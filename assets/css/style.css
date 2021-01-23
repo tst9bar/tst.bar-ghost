@@ -919,8 +919,8 @@ span.badge-nightly {
 	opacity:0.8;
 	/* color:inherit; */
 }
-	@media only screen and (max-width: 680px){.post-excerpt{font-size:2.3rem;line-height:1.3em}}
-	@media only screen and (max-width: 980px){.post-excerpt{font-size:2.4rem;line-height:1.565em}}	/* [ ] wrong criteria */
+	@media only screen and (max-width: 680px) and (orientation: portrait){.post-excerpt{font-size:2.3rem;line-height:1.3em}}
+	@media only screen and (max-width: 926px) and (orientation: landscape){.post-excerpt{font-size:2.4rem;line-height:1.565em}}	/* [ ] wrong criteria */
 
 
 
