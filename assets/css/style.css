@@ -445,8 +445,7 @@ justify-content:space-between
 	transition:all ease-out 0.2s;
 }
 .nav-header .nav-wrapper-control a i{
-	/* display:inline-block; */
-	display:none;
+	display:inline-block;
 	/* width:4rem; */
 }
 
