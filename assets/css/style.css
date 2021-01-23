@@ -413,56 +413,158 @@ span.badge-nightly {
 	
 	
 .nav-header .nav-wrapper-control{
-position:absolute;
-z-index:500;
-left:0;
-top:100%;
-width:100%;
-cursor:pointer;
-display:none;
-color:#909499;
-border-top:1px solid transparent;
-box-sizing:border-box;
-transition:all linear 0.1s
+	position:absolute;
+	z-index:500;
+	left:0;
+	top:100%;
+	width:100%;
+	/* height: 40px; */
+	cursor:pointer;
+	display:none;
+	color:#909499;
+	border-top:1px solid transparent;
+	box-sizing:border-box;
+	transition:all linear 0.1s;
 } /* toogle wrapper */
 	@media (prefers-color-scheme: dark){.nav-header .nav-wrapper-control{color:#909499}}
-	@media only screen and (max-width: 640px){.nav-header .nav-wrapper-control{display:block}} /* toggle hidden unless below 640 */
+	@media only screen and (max-width: 640px){.nav-header .nav-wrapper-control{display:block;width:0;padding-top: 2.5%;padding-left:2.5%;background:black;}} /* toggle hidden unless below 640 */
+
 
 .nav-header .nav-wrapper-control .inner{
-display:flex;
-justify-content:space-between
+	display:flex;
+	justify-content:space-between;
 }
-
 .nav-header .nav-wrapper-control .button{
 	position:relative;
 	display:block;
-	width:100%;
-	padding:2rem 0;
+	/* width:100%; */
+	/* height: 100% */
+	/* padding:2rem 0; */
 	padding:0;
 	/* font-size:2rem; */
 	/* line-height:1em; */
 	color:inherit;
-	transition:all ease-out 0.2s;
+	transition:all ease-out 0.1s;
 }
+.nav-header .nav-wrapper-control .button {
+	position: absolute;
+	/* top: 5px; */
+	/* width: 20px; */
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.nav-header .nav-wrapper-control .button:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 6px;
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.nav-header .nav-wrapper-control .button:after {
+	content: "";
+	position: absolute;
+	/* bottom: -12px */
+	bottom: 6px;
+	left: 0;
+	width: 100%;
+	height: 20px;
+	height: 10px;
+}
+
+
 .nav-header .nav-wrapper-control .button i{
 	display:inline-block;
 	/* width:4rem; */
+	width: 100%;
 }
 
 
+/* ---- #### mac green nav -------- */
+.nav-header .nav-wrapper-control .button.green {
+	/* left: 64px; */
+	background-color: #70BF3A;
+	border: 1px solid #063F07;
+	box-shadow: 0 1px 2px #658961;
+}
+.nav-header .nav-wrapper-control .button.green:active {
+	box-shadow: 0 1px 1px #658961;
+}
+.nav-header .nav-wrapper-control .button.green:after {
+	background: radial-gradient(ellipse at center, #e2fbb6 0%, rgba(146, 215, 78, 0) 100%);
+	background: radial-gradient(ellipse at center, #e2fbb6 0%, rgba(146, 215, 78, 0) 100%);
+}
+
+
+
+
+/* <div class="browser">
+  <header>
+	<button class="button red"></button>
+	<button class="button yellow"></button>
+	<button class="button green"></button> */
+/* traffic light div browser,  header, button */
+.browser {
+	position: relative;
+	width: 500px;
+	height: 400px;
+	margin: 40px auto;
+	border-radius: 12px;
+	background-color: #FFF;
+	overflow: hidden;
+	}
+.browser header {
+	top: 0;
+	width: 100%;
+	border-bottom: 2px solid #7F7F7F;
+	background-color: #E8E8E8;
+}
+.browser header .button.red {
+	left: 10px;
+	background-color: #D2493F;
+	border: 1px solid #7b1c1a;
+	box-shadow: 0 1px 2px #401110;
+}
+.browser header .button.red:active {
+	box-shadow: 0 1px 1px #401110;
+}
+.browser header .button.red:after {
+	background: radial-gradient(ellipse at center, #fdc6c3 0%, rgba(221, 79, 67, 0) 100%);
+}
+.browser header .button.yellow {
+	left: 37px;
+	background-color: #F1B330;
+	border: 1px solid #C66A34;
+	box-shadow: 0 1px 2px #8A7663;
+}
+.browser header .button.yellow:active {
+	box-shadow: 0 1px 1px #8A7663;
+}
+.browser header .button.yellow:after {
+	background: radial-gradient(ellipse at center, #f8fa98 0%, rgba(247, 206, 64, 0) 100%);
+}
+
+
+
+
 .nav-header .nav-wrapper-control a.nav-search{
-width:auto;
-text-align:right
+	width:auto;
+	text-align:right
 }
 	
 	
 .nav-header .nav-wrapper-control button:focus,.nav-header .nav-wrapper-control button:hover{
-color:#222426
+	color:#222426
 }
 	@media (prefers-color-scheme: dark){.nav-header .nav-wrapper-control button:focus,.nav-header .nav-wrapper-control button:hover{color:#e1e3e6}}
 	
 .cover-active .nav-header .nav-wrapper-control{
-color:#fafafa
+	color:#fafafa
 }
 .menu-active .nav-header .nav-wrapper-control{
 	background:#222426;
@@ -472,15 +574,16 @@ color:#fafafa
 	@supports (-webkit-backdrop-filter: blur(2rem)){.menu-active .nav-header .nav-wrapper-control{background:rgba(34,36,38,0.9);-webkit-backdrop-filter:blur(2rem)}}
 	
 .menu-active .nav-header .nav-wrapper-control a:focus,.menu-active .nav-header .nav-wrapper-control button:hover{
-color:#e1e3e6
+	color:#e1e3e6
 }
 
 
 .nav-header .nav-wrapper{
 	display:flex;
 	max-height:calc(100vh - 6rem);
-	padding:2rem 4rem;
-	overflow-y:auto
+	/* padding:2rem 4rem; */
+	padding: 2% 5%;	/* not inner, not subject to ori 5% */
+	overflow-y:auto;
 }
 	@media only screen and (max-width: 640px){.nav-header .nav-wrapper{background:#222426;flex-direction:column}@supports (-webkit-backdrop-filter: blur(2rem)){.nav-header .nav-wrapper{background:rgba(34,36,38,0.9);-webkit-backdrop-filter:blur(2rem)}}}
 	
@@ -566,94 +669,6 @@ color:#e1e3e6
 
 
 
-/* <div class="browser">
-  <header>
-	<button class="button red"></button>
-	<button class="button yellow"></button>
-	<button class="button green"></button> */
-/* traffic light div browser,  header, button */
-.browser {
-	position: relative;
-	width: 500px;
-	height: 400px;
-	margin: 40px auto;
-	border-radius: 12px;
-	background-color: #FFF;
-	overflow: hidden;
-	}
-.browser header {
-	top: 0;
-	width: 100%;
-	border-bottom: 2px solid #7F7F7F;
-	background-color: #E8E8E8;
-}
-
-
-.nav-header .nav-wrapper-control .button {
-	position: absolute;
-	top: 5px;
-	width: 20px;
-	height: 20px;
-	border-radius: 50%;
-	box-sizing: border-box;
-	overflow: hidden;
-}
-.nav-header .nav-wrapper-control .button:before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 6px;
-	background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%);
-}
-
-.nav-header .nav-wrapper-control .button:after {
-	content: "";
-	position: absolute;
-	bottom: -12px;
-	left: 0;
-	width: 100%;
-	height: 20px;
-}
-
-.browser header .button.red {
-	left: 10px;
-	background-color: #D2493F;
-	border: 1px solid #7b1c1a;
-	box-shadow: 0 1px 2px #401110;
-}
-.browser header .button.red:active {
-	box-shadow: 0 1px 1px #401110;
-}
-.browser header .button.red:after {
-	background: radial-gradient(ellipse at center, #fdc6c3 0%, rgba(221, 79, 67, 0) 100%);
-}
-.browser header .button.yellow {
-	left: 37px;
-	background-color: #F1B330;
-	border: 1px solid #C66A34;
-	box-shadow: 0 1px 2px #8A7663;
-}
-.browser header .button.yellow:active {
-	box-shadow: 0 1px 1px #8A7663;
-}
-.browser header .button.yellow:after {
-	background: radial-gradient(ellipse at center, #f8fa98 0%, rgba(247, 206, 64, 0) 100%);
-}
-
-.nav-header .nav-wrapper-control .button.green {
-	left: 64px;
-	background-color: #70BF3A;
-	border: 1px solid #063F07;
-	box-shadow: 0 1px 2px #658961;
-}
-.nav-header .nav-wrapper-control .button.green:active {
-	box-shadow: 0 1px 1px #658961;
-}
-.nav-header .nav-wrapper-control .button.green:after {
-	background: radial-gradient(ellipse at center, #e2fbb6 0%, rgba(146, 215, 78, 0) 100%);
-}
 
 
 
