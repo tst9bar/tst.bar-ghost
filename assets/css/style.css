@@ -162,7 +162,7 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	position:relative;
 	padding-top:calc(8rem + 4vw);
 }
-	@media only screen and (max-width: 640px){.blog-header{padding-top:calc(8rem + 4vw);}}
+	@media only screen and (max-width: 640px){.blog-header{padding-top:calc(6rem + 4vw);}}
 
 
 .blog-header.has-cover{
@@ -470,10 +470,10 @@ span.badge-nightly {
 	content: "";
 	position: absolute;
 	/* bottom: -12px */
-	bottom: 6px;
+	bottom: -7px;
 	left: 0;
 	width: 100%;
-	height: 20px;
+	/* height: 20px; */
 	height: 10px;
 }
 
@@ -1122,7 +1122,8 @@ span.badge-nightly {
 	padding:calc(8rem + 4vw) 0 calc(2rem + 2vw);
 	margin-top:14px;
 }
-	@media only screen and (min-width: 1024px){.post-header{margin-top:28px}}
+	/* @media only screen and (min-width: 1024px){.post-header{margin-top:28px}} */
+	@media only screen and (max-width: 640px){.post-header{padding:calc(6rem + 4vw) 0 calc(2rem + 2vw);}}
 .post-header.has-cover{
 	padding:calc(8rem + 8vw) 0 calc(4rem + 6vw);
 	margin-bottom:calc(4rem + 2vw);
