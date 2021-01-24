@@ -493,10 +493,12 @@ span.badge-nightly {
 	/* left: 64px; */
 	background-color: #70BF3A;
 	border: 1px solid #063F07;
-	box-shadow: 0 1px 2px #658961;
+	border: 1px solid #373737;
+	/* box-shadow: 0 0px 1px #658961; */
+	/* box-shadow: 0 0px 1px #373737; */
 }
-.nav-header .nav-wrapper-control .button.green:active {
-	box-shadow: 0 1px 1px #658961;
+.nav-header .nav-wrapper-control .button.green:active, .nav-header .nav-wrapper-control .button.green:hover {
+	box-shadow: 0 0px 3px #658961;
 }
 .nav-header .nav-wrapper-control .button.green:after {
 	background: radial-gradient(ellipse at center, #e2fbb6 0%, rgba(146, 215, 78, 0) 100%);
@@ -1999,6 +2001,6 @@ text-orientation:upright;
 	
 }
 
-.tag-hash-sm {
-	
+.tag-hash-sm{
+	text-align:right;
 }
