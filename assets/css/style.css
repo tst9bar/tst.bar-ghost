@@ -341,7 +341,7 @@ span.badge-nightly {
 	-ms-transform: rotate(-10deg) translateX(-35%) translateY(-80%);
 	transform: rotate(-10deg) translateX(-35%) translateY(-80%);	/* 3 50 50, 5 30 60 */
 }
-	@media only screen and (max-width: 432px){span.badge-nightly{-webkit-transform: rotate(-10deg) translateX(-12%) translateY(-80%);-ms-transform: rotate(-10deg) translateX(-12%) translateY(-80%);transform: rotate(-10deg) translateX(-12%) translateY(-80%);}}
+	@media only screen and (max-width: 432px){span.badge-nightly{-webkit-transform: rotate(-10deg) translateX(-12vw) translateY(-80%);-ms-transform: rotate(-10deg) translateX(-12vw) translateY(-80%);transform: rotate(-10deg) translateX(-12vw) translateY(-80%);}} /* -12% */
 .orange {
 	color: #ff7a29;
 	/* font-weight: bold; */
