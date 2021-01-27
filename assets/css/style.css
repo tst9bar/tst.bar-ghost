@@ -428,7 +428,7 @@ span.badge-nightly {
 	transition:all linear 0.1s;
 } /* toogle wrapper */
 	@media (prefers-color-scheme: dark){.nav-header .nav-wrapper-control{color:#909499}}
-	@media only screen and (max-width: 640px){.nav-header .nav-wrapper-control{display:block;width:0;padding-top: 2.5%;padding-left:2.5%;background:black;}} /* toggle hidden unless below 640 */
+	@media only screen and (max-width: 640px){.nav-header .nav-wrapper-control{display:block;width:0;padding-top: 2.5%;padding-left:2%;background:black;}} /* toggle hidden unless below 640 */
 
 
 .nav-header .nav-wrapper-control .inner{
