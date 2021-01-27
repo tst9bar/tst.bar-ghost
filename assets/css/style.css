@@ -477,7 +477,7 @@ span.badge-nightly {
 	left: 0;
 	width: 100%;
 	/* height: 20px; */
-	height: 10px;
+	/* height: 10px; */
 }
 
 
@@ -501,8 +501,8 @@ span.badge-nightly {
 	box-shadow: 0 0px 3px #658961;
 }
 .nav-header .nav-wrapper-control .button.green:after {
-	background: radial-gradient(ellipse at center, #e2fbb6 0%, rgba(146, 215, 78, 0) 100%);
-	background: radial-gradient(ellipse at center, #e2fbb6 0%, rgba(146, 215, 78, 0) 100%);
+	/* background: radial-gradient(ellipse at center, #e2fbb6 0%, rgba(146, 215, 78, 0) 100%); */
+	/* background: radial-gradient(ellipse at center, #e2fbb6 0%, rgba(146, 215, 78, 0) 100%); */
 }
 
 
@@ -818,7 +818,7 @@ span.badge-nightly {
 	/* padding:0 6.4rem; */
 }
 	/* @media only screen and (max-width: 640px){.inner{margin:0 5%}} */
-	@media only screen and (max-width: 748px){.inner{margin:0 5%}} /* change if desktop maxwidth 680 changed */
+	@media only screen and (max-width: 748px){.inner{margin:0 5%}} /* [ ] wrong 5% for 680 */
 	
 
 
@@ -829,11 +829,11 @@ span.badge-nightly {
 /* post <article> inner <div> post-box <div> */
 .container .post .post-box{
 	padding-top:calc((3.2rem * 0.8) + 2vw);
-	padding-bottom:calc((3.2rem * 0.6) + 2vw);
-	border-bottom:1px solid #e1e3e6
+	padding-bottom:calc((3.2rem * 0.5) + 2vw);
+	border-bottom:1px solid #e1e3e6;
 } /* padding 4rem seems too much to h2 bottom 0.8em */
 	@media (prefers-color-scheme: dark){.container .post .post-box{border-color:#3b3d40}}
-	/* @media only screen and (min-width: 680px){{.container .post .post-box{padding-left: 5px}}} */ /* [ ] what */
+	
 .container #results .post .post-box{
 	border-top:1px solid #e1e3e6
 }
