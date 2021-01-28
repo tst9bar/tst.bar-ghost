@@ -494,11 +494,10 @@ span.badge-nightly {
 
 
 /* ---- #### mac green nav -------- */
-.nav-header .nav-wrapper-control .button.green {
-	/* left: 64px; */
-	background-color: #70BF3A;
-	border: 1px solid #063F07;
-	border: 1px solid #f3f3f3;
+.nav-header .nav-wrapper-control .button.green{
+	background-color:#70BF3A;
+	border:1px solid #063F07;
+	border:1px solid #f3f3f3;
 	/* box-shadow: 0 0px 1px #658961; */
 	/* box-shadow: 0 0px 1px #373737; */
 }
@@ -506,12 +505,12 @@ span.badge-nightly {
 	
 .nav-header .nav-wrapper-control .button.green:active, .nav-header .nav-wrapper-control .button.green:hover {
 	box-shadow: 0 0px 2px #658961;
+	box-shadow: 0 0px 2px #063F07;
 }
 .nav-header .nav-wrapper-control .button.green:after {
 	/* background: radial-gradient(ellipse at center, #e2fbb6 0%, rgba(146, 215, 78, 0) 100%); */
 	/* background: radial-gradient(ellipse at center, #e2fbb6 0%, rgba(146, 215, 78, 0) 100%); */
 }
-
 
 
 
