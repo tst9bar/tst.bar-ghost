@@ -319,6 +319,7 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	line-height:1.2em;
 	color:#909499;
 	color:#222426;
+	color:#333;
 }
 	@media (prefers-color-scheme: dark){.blog-description{color:#909499}}
 .has-cover .blog-description{
@@ -880,6 +881,7 @@ span.badge-nightly {
 	font-weight:700;
 	text-indent:-1px;
 	color:#222426;
+	color:#333;
 	letter-spacing:0;
 }
 	@media (prefers-color-scheme: dark){.post-title{color:#fafafa}}
