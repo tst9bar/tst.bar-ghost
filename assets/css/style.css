@@ -879,7 +879,7 @@ span.badge-nightly {
 	font-style:normal;
 	font-weight:700;
 	text-indent:-1px;
-	color:#000;	/* should use body black */
+	color:#222426;	/* should use body black */
 	letter-spacing:0;
 }
 	@media (prefers-color-scheme: dark){.post-title{color:#fafafa}}
