@@ -112,7 +112,8 @@ body{
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
 	overflow-x:hidden;
-	background:#FFF;
+	background:#f8f8ff;
+	background:rgb(248,248,248,0.7);
 }
 	@media (prefers-color-scheme: dark){body{background:#333;color:#fafafa;font-weight:400}}
 
