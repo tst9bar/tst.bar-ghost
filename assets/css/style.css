@@ -506,6 +506,7 @@ span.badge-nightly {
 .nav-header .nav-wrapper-control .button.green:active, .nav-header .nav-wrapper-control .button.green:hover {
 	box-shadow: 0 0px 2px #658961;
 	box-shadow: 0 0px 2px #063F07;
+	border:0;
 }
 .nav-header .nav-wrapper-control .button.green:after {
 	/* background: radial-gradient(ellipse at center, #e2fbb6 0%, rgba(146, 215, 78, 0) 100%); */
