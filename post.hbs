@@ -7,15 +7,16 @@
 	
 	<header class="post-header {{#if feature_image}} has-cover {{/if}}">
 		<div class="inner">
-			{{#if tags}}
+			{{#has tag="count:>5"}}
 			<span class="post-info">
 				<span class="post-type">{{t "Article"}}</span>
 				<span class="post-count">{{primary_tag.name}}</span>
 			</span>
-			{{/if}}
+			{{/has}}
 			<h1 class="post-title">{{{title}}}</h1>
 			<div class="post-meta">
-				<!-- <div class="post-meta-avatars">
+				{{#has author="count:>1"}}
+				<div class="post-meta-avatars">
 					{{#foreach authors}}
 						<figure class="post-meta-avatar avatar">
 							{{#if profile_image}}
@@ -25,8 +26,9 @@
 							{{/if}}
 						</figure>
 					{{/foreach}}
-				</div> -->
-				<!-- <h4 class="post-meta-author">{{authors separator=", "}}</h4> -->
+				</div>
+				<h4 class="post-meta-author">{{authors separator=", "}}</h4>
+				{{/has}}
 				{{t "on"}}
 				<time datetime="{{date format='DD-MM-YYYY'}}">{{date format="DD MMMM YYYY"}}</time><!-- &bull; {{reading_time minute=(t "1 min read") minutes=(t "% min read")}}-->
 			</div>
