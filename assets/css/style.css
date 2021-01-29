@@ -658,7 +658,7 @@ span.badge-nightly {
 .nav-header li.active a{
 	/* color:#3b3d40; */
 	font-weight:700;
-	opacity:0.9;
+	opacity:0.6;
 }
 	@media (prefers-color-scheme: dark){.nav-header li.active a{color:#e1e3e6}}
 	@media only screen and (max-width: 640px){.nav-header li.active a{color:#fafafa}}
@@ -694,7 +694,7 @@ span.badge-nightly {
 		}
 	}
 .nav-header li a:focus,.nav-header li a:hover{
-	color:#3b3d40
+	color:#3b3d40;
 }
 	@media (prefers-color-scheme: dark){.nav-header li a:focus,.nav-header li a:hover{color:#e1e3e6}}
 	@media only screen and (max-width: 640px){.nav-header li a:focus,.nav-header li a:hover{color:#c4c7cc}}
