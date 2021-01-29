@@ -1176,7 +1176,9 @@ span.badge-nightly {
 	margin-top:14px;
 }
 	/* @media only screen and (min-width: 1024px){.post-header{margin-top:28px}} */
-	@media only screen and (max-width: 640px){.post-header{padding:calc(6rem + 4vw) 0 calc(2rem + 2vw);}}
+	@media only screen and (max-width: 640px){.post-header{padding:calc(4rem + 4vw) 0 calc(2rem + 2vw);}}
+	
+	
 .post-header.has-cover{
 	padding:calc(8rem + 8vw) 0 calc(4rem + 6vw);
 	margin-bottom:calc(4rem + 2vw);
@@ -1225,8 +1227,8 @@ span.badge-nightly {
 	/* line-height:1.25em */
 	/* line-height: 71px; */
 }
-	@media only screen and (max-width:428px) and (max-height:926px) and (orientation:portrait){.post-header .post-title{text-align:center}}
-	@media only screen and (max-width:926px) and (max-height:428px) and (orientation:landscape){.post-header .post-title{text-align:center}}
+	@media only screen and (max-width:428px) and (max-height:926px) and (orientation:portrait){.post-header .post-title{text-align:center;line-height:1.1em}}
+	@media only screen and (max-width:926px) and (max-height:428px) and (orientation:landscape){.post-header .post-title{text-align:center;line-height:1.1em}}
 .has-cover .post-title{
 	color:#fafafa;
 }
