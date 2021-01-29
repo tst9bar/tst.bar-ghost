@@ -627,6 +627,7 @@ span.badge-nightly {
 	margin:auto;
 	padding:0;
 	list-style:none;
+	font-family: 'Open Sans', 'Lucida Grande', sans-serif;
 }
 	@media only screen and (max-width: 640px){.nav-header ul{flex-direction:column;flex-shrink:0;padding:2rem 0}}
 	
@@ -655,8 +656,9 @@ span.badge-nightly {
 	@media only screen and (max-width: 640px){.nav-header li.active a:before{left:0;top:50%;width:1.5rem;height:2px;margin-left:6px;margin-top:-1px;border-radius:2px;padding:0}}
 	
 .nav-header li.active a{
-	color:#3b3d40;
-	font-weight:500
+	/* color:#3b3d40; */
+	font-weight:700;
+	opacity:0.9;
 }
 	@media (prefers-color-scheme: dark){.nav-header li.active a{color:#e1e3e6}}
 	@media only screen and (max-width: 640px){.nav-header li.active a{color:#fafafa}}
@@ -669,9 +671,9 @@ span.badge-nightly {
 	white-space:nowrap;
 	text-overflow:ellipsis;
 	text-decoration:none;
-	font-weight:400;
+	font-weight:500;
 	cursor:pointer;
-	transition:color linear 0.1s
+	transition:color linear 0.1s;
 }
 	@media only screen and (max-width: 640px){
 		.nav-header li a{
