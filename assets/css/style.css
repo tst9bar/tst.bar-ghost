@@ -917,6 +917,7 @@ span.badge-nightly {
 	z-index:10;
 	margin:0;	
 	margin-bottom:0.8em; /* [] 20px bottom until meta date */
+	/* margin-bottom:calc(0.7em + 1vw); */
 	font-size:3.2rem;
 	line-height:1.2em;
 	/* font-family:'Overlock', 'datk6', cursive; */
@@ -964,8 +965,8 @@ span.badge-nightly {
 /* ---- ### post excerpt <p> in post <article> at home -------- */
 .post-excerpt{
 	margin:0.8em 0 0;
-	/* font-size:1.8rem; */	/* default usually 10px, at root 62.5%, just x10 https://engageinteractive.co.uk/blog/em-vs-rem-vs-px */
-	font-size:2.0rem;
+	/* margin-top:calc(0.7em + 1vw); */
+	font-size:2.0rem;	/* default usually 10px, at root 62.5%, just x10 https://engageinteractive.co.uk/blog/em-vs-rem-vs-px */
 	line-height:1.55em;
 	font-family:'Josefin Slab', 'creamfont', serif;
 	opacity:0.8;
