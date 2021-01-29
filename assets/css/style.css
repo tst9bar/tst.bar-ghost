@@ -229,10 +229,9 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 .blog-name{
 	/* display:block; */
 	/* width:fit-content; */		
-	/* margin:0.25em auto 0.25em auto; */
-	margin:0;
+	margin:0.1em auto 0.1em auto;
 	/* padding:0; */
-	padding:0.25em auto 0.25em auto;
+	padding:0.15em auto 0.15em auto;
 	text-align:center;
 	font-family:'Monoton';
 	font-style:normal;
