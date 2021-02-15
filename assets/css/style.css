@@ -398,8 +398,8 @@ span.badge-nightly {
 	z-index:400;
 	transition:all ease-out 0.3s
 }
-	@media only screen and (max-width: 640px){.nav-header{transform:translate3d(0, -200%, 0)}}
-.menu-active .nav-header{
+	@media only screen and (max-width: 640px){.nav-wrapper{transform:translate3d(0, -200%, 0)}}
+.menu-active .nav-wrapper{
 	transform:translate3d(0, 0, 0)
 }
 
