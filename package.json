@@ -1,8 +1,8 @@
 {
   "name": "tst9bar_Hongkong",
-  "description": "Ghost Theme for tst.bar",
+  "description": "Ghost Theme for tst.bar with an unique blend of taste",
   "demo": "https://tst.bar",
-  "version": "0.6",
+  "version": "0.7",
   "engines": {
     "ghost": ">=3.0.0",
     "ghost-api": "v3"
@@ -28,10 +28,11 @@
     "ghost-theme",
     "ghost",
     "theme",
-    "dark"
+    "dark",
+    "Hong Kong"
   ],
   "config": {
-    "posts_per_page": 15,
+    "posts_per_page": 16,
     "image_sizes": {
       "s": {
         "width": 320
