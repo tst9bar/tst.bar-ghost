@@ -590,8 +590,8 @@ span.badge-nightly {
 	color:#e1e3e6
 }
 
-.menu-active .nav-header .nav-wrapper-control a:focus,.menu-active .nav-header .nav-wrapper-control .button{
-	color:#000
+.menu-active .nav-header .nav-wrapper-control .button{
+	background-color:#000
 }
 
 
