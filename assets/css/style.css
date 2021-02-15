@@ -501,7 +501,7 @@ span.badge-nightly {
 	/* box-shadow: 0 0px 1px #658961; */
 	/* box-shadow: 0 0px 1px #373737; */
 }
-	@media (prefers-color-scheme: dark){.nav-header .nav-wrapper-control .button.green{border: 1px solid #373737;}}
+	@media (prefers-color-scheme: dark){.nav-header .nav-wrapper-control .button.green{border:1px solid #373737;}}
 	
 .nav-header .nav-wrapper-control .button.green:active, .nav-header .nav-wrapper-control .button.green:hover {
 	box-shadow: 0 0px 2px #658961;
@@ -591,7 +591,8 @@ span.badge-nightly {
 }
 
 .menu-active .nav-header .nav-wrapper-control .button{
-	background-color:#000
+	background-color:#D2493F;
+	border:1px solid #7b1c1a;
 }
 
 
