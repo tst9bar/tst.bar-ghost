@@ -3,21 +3,21 @@
 		<div class="box pagination-box">
 			{{#if next}}
 			<a title="{{t "Previous Posts"}}" class="pagination-prev" href="{{page_url next}}">
-				<span class="pagination-label">{{t "<<<"}}
-					{{#post}}
-					{{#get "posts" limit="1"}}
-					{{date published_at format="MMMM YYYY"}}
-					{{/get}}
-					{{/post}}
-				</span> 
-				<!-- <i class="icon icon-arrow-right"></i> -->
+				<span class="pagination-label">{{t "Past"}}</span> 
 			</a>
+			{{#get "posts"}}
+			{{#post @last}}
+			<span class="pagination-label">{{t "title"}}</span> 
+			{{/post}}
+			{{/get}}
 			{{/if}}
-			<span class="pagination-info">{{t "Page {page} / {pages}" page=page pages=pages}}</span>
+	
+			<span class="pagination-info">{{t "{page} / {pages}" page=page pages=pages}}</span>
+			
 			{{#if prev}}
 			<a title="{{t "Recent Posts"}}" class="pagination-next" href="{{page_url prev}}">
 				<!-- <i class="icon icon-arrow-left"></i> --> 
-				<span class="pagination-label">{{t ">>>"}}</span>
+				<span class="pagination-label">{{t "Present"}}</span>
 			</a>
 			{{/if}}
 		</div>
