@@ -503,9 +503,10 @@ span.badge-nightly {
 }
 	@media (prefers-color-scheme: dark){.nav-header .nav-wrapper-control .button.green{border:1px solid #373737;}}
 	
-.nav-header .nav-wrapper-control .button.green:active, .nav-header .nav-wrapper-control .button.green:hover {
-	box-shadow: 0 0px 2px #658961;
-	box-shadow: 0 0px 2px #063F07;
+/* .nav-header .nav-wrapper-control .button.green:active, */
+.nav-header .nav-wrapper-control .button.green:hover {
+	box-shadow: 0 0px 1px #658961;
+	box-shadow: 0 0px 1px #063F07;
 	border:0;
 }
 .nav-header .nav-wrapper-control .button.green:after {
@@ -592,7 +593,12 @@ span.badge-nightly {
 
 .menu-active .nav-header .nav-wrapper-control .button{
 	background-color:#D2493F;
-	border:1px solid #7b1c1a;
+	border:1px solid #fdc6c3;
+	}
+	@media (prefers-color-scheme: dark){.menu-active .nav-header .nav-wrapper-control .button{border:1px solid #7b1c1a;}}
+.menu-active .nav-header .nav-wrapper-control .button:hover {
+	box-shadow: 0 0px 1px #401110;
+	border:0;
 }
 
 
