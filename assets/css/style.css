@@ -505,9 +505,10 @@ span.badge-nightly {
 	
 /* .nav-header .nav-wrapper-control .button.green:active, */
 .nav-header .nav-wrapper-control .button.green:hover {
+	border:0;
 	box-shadow: 0 0px 1px #658961;
 	box-shadow: 0 0px 1px #063F07;
-	border:0;
+	
 }
 .nav-header .nav-wrapper-control .button.green:after {
 	/* background: radial-gradient(ellipse at center, #e2fbb6 0%, rgba(146, 215, 78, 0) 100%); */
@@ -592,13 +593,14 @@ span.badge-nightly {
 }
 
 .menu-active .nav-header .nav-wrapper-control .button{
+	border:0;
 	background-color:#D2493F;
-	border:1px solid #fdc6c3;
+	box-shadow: 0 0px 1px #063F07;
 	}
 	@media (prefers-color-scheme: dark){.menu-active .nav-header .nav-wrapper-control .button{border:1px solid #7b1c1a;}}
 .menu-active .nav-header .nav-wrapper-control .button:hover {
-	box-shadow: 0 0px 1px #401110;
 	border:0;
+	box-shadow: 0 0px 1px #401110;
 }
 
 
