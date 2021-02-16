@@ -599,8 +599,8 @@ span.badge-nightly {
 	}
 	@media (prefers-color-scheme: dark){.menu-active .nav-header .nav-wrapper-control .button{border:1px solid #7b1c1a;}}
 .menu-active .nav-header .nav-wrapper-control .button:hover {
-	box-shadow:0;
-	border: 1px solid #401110;
+	box-shadow:none;
+	border: 1px solid #373737;
 }
 
 
