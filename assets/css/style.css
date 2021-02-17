@@ -179,7 +179,6 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	position:relative;
 	/* z-index:10; */
 	padding-bottom:calc(4rem + 2vw);
-	text-align:center;
 	border-bottom:1px solid #e1e3e6
 }
 	@media (prefers-color-scheme: dark){.blog-header .blog-box{border-color:#3b3d40}}
@@ -316,6 +315,7 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 
 
 .blog-description{
+	text-align:center;
 	font-family:'Josefin Slab', serif;
 	display:block;
 	/* margin-top:1rem; */
@@ -342,6 +342,7 @@ span.badge-nightly {
 	/* font-weight: 700; */
 	line-height: 2.4rem;
 	font-family: 'Open Sans', 'Lucida Grande', sans-serif;
+	letter-spacing:0.07em;
 	padding: 0.3em 0.6em;
 	/* margin-left: 18px; */
 	-webkit-transform: rotate(-10deg) translateX(-35%) translateY(-80%);
