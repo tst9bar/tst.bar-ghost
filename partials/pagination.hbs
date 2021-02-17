@@ -5,11 +5,6 @@
 			<a title="{{t "Previous Posts"}}" class="pagination-prev" href="{{page_url next}}">
 				<span class="pagination-label">{{t "Past"}}</span> 
 			</a>
-			{{#get "posts"}}
-			{{#post @last}}
-			<span class="pagination-label">{{t "title"}}</span> 
-			{{/post}}
-			{{/get}}
 			{{/if}}
 	
 			<span class="pagination-info">{{t "{page} / {pages}" page=page pages=pages}}</span>
