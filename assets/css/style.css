@@ -248,6 +248,7 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	@media only screen and (min-width: 1024px){.blog-name{font-size:11.2rem}}
 .blog-name a {
 	-webkit-transform: translateZ(0);
+	display:inline block;
 	text-decoration: none;
 	font-family: Monoton;
 	color: #FF1177;	/* consider revert neon, red light white shawow */
