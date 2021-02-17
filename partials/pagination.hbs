@@ -2,9 +2,7 @@
 	<div class="inner">
 		<div class="box pagination-box">
 			{{#if next}}
-			<a title="{{t "Previous Posts"}}" class="pagination-prev" href="{{page_url next}}">
-				<span class="pagination-label">{{t "Past"}}</span> 
-			</a>
+			<a title="{{t "Previous Posts"}}" class="pagination-prev" href="{{page_url next}}">Past</a>	<!-- <span class="pagination-label">{{t "Past"}}</span> -->
 			{{/if}}
 	
 			<span class="pagination-info">{{t "{page} / {pages}" page=page pages=pages}}</span>

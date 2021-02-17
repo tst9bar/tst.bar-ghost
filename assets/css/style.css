@@ -1025,7 +1025,7 @@ span.badge-nightly {
 
 .pagination .pagination-box{
 	padding-top:calc(2rem + 1vw);
-	padding-bottom:calc(2rem + 1vw)
+	padding-bottom:calc(2rem + 1vw);
 }
 .pagination .pagination-box:after{
 	clear:both;
@@ -1036,13 +1036,11 @@ span.badge-nightly {
 .pagination a{
 	position:relative;
 	display:block;
-	height:4rem;
-	margin:-1px 0;
-	padding:0 2rem;
+	padding:1rem 2rem;
 	z-index:100;
 	border:1px solid #c4c7cc;
-	font-size:1.5em;
-	line-height:4rem;
+	font-size:1.5rem;
+	line-height:1em;
 	font-weight:500;
 	text-align:center;
 	text-decoration:none;
@@ -1050,7 +1048,7 @@ span.badge-nightly {
 	transition:all ease 0.2s;
 	/* border-radius:4rem; */
 	border-radius:1rem;
-	box-sizing:border-box
+	box-sizing:border-box;
 }
 	@media (prefers-color-scheme: dark){.pagination a{border-color:#909499;color:#c4c7cc}}
 .pagination a:focus,.pagination a:hover{
@@ -1060,31 +1058,13 @@ span.badge-nightly {
 }
 .pagination .pagination-prev{
 	float:left;
+	left: 2%;
 	padding-right:1.5rem
 }
 .pagination .pagination-next{
 	float:right;
+	right: 2%;
 	padding-left:1.5rem
-}
-.pagination .pagination-label{
-	position:relative;
-	top:-1px;
-	display:inline-block
-}
-	@media only screen and (max-width: 480px){.pagination .pagination-label{display:none}}
-.pagination a i{
-	position:relative;
-	top:1px;
-	width:auto;
-	margin:auto 4px;
-	color:inherit;
-	font-size:1.33334em;
-	line-height:0.75em
-}
-.pagination a i:before{
-	position:relative;
-	width:auto;
-	margin:auto
 }
 .pagination .pagination-info{
 	position:absolute;
@@ -1098,6 +1078,8 @@ span.badge-nightly {
 	text-align:center;
 	color:#909499;
 }
+
+
 .extra-pagination{
 	display:none
 }
