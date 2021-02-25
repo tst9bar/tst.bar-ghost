@@ -686,11 +686,11 @@ span.badge-nightly {
 	@media only screen and (max-width: 640px){.nav-header li.active a:before{
 		left:0;
 		top:50%;
-		width:5px;
-		height:5px;
+		width:7px;
+		height:7px;
 		margin-left:6px;
 		margin-top:-1px;
-		border-radius:2px;
+		border-radius:5px;
 		padding:0;
 	}}
 	
