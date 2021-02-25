@@ -1,6 +1,6 @@
 /* 
  * ---- credit to Attila theme by https://github.com/zutrinken/attila.git --------
-*/
+ */
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body{margin:0}
@@ -155,9 +155,10 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 
 
 
-/* ========================
+/* ------------------------
  * ---- ## HOME -------- 
-*/
+ * ------------------------/
+ 
 /* ---- ### blog header wrapper -------- */
 .blog-header{
 	position:relative;
@@ -222,8 +223,6 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 }
 
 
-/* */
-
 /* ---- ### blog header -------- */
 .blog-name{
 	/* width:fit-content; */		
@@ -264,7 +263,6 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 
 	
 }
-
 
 
 .blog-name a:hover {
@@ -674,7 +672,7 @@ span.badge-nightly {
 .nav-header li.active a:before{
 	position:absolute;
 	content:'';
-	width:100%;
+	width:3px;
 	height:3px;
 	left:0;
 	top:0;
