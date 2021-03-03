@@ -1733,8 +1733,8 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	margin-right:auto;
 }
 .post-content .kg-embed-card iframe{
-	width:100;
-	height:550px;
+	width:100%;
+	height:80%;
 }
 
 .post-content .kg-code-card{
