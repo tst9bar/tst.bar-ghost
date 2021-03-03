@@ -1726,7 +1726,10 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	
 	
 .post-content .kg-embed-card{
-	margin:0 0 2em
+	margin:0 0 2em;
+	width:100%;
+	max-height:382.5px;
+	height:50.625vw; /* set max to 16:9 56.25% of post width 680 , 382.5px   4:3 510px*/
 }
 .post-content .kg-embed-card>*{
 	margin-left:auto;
