@@ -901,7 +901,7 @@ span.badge-nightly {
 	/* padding:0 6.4rem; */
 }
 	/* @media only screen and (max-width: 640px){.inner{margin:0 5%}} */
-	@media only screen and (max-width: 748px){.inner{margin:0 5%}} /* [ ] wrong 5% for 680 */
+	@media only screen and (max-width: 748px){.inner{margin:0 4%}} /* [ ] wrong 5% for 680 */
 	
 
 
