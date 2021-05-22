@@ -1536,12 +1536,12 @@ span.badge-nightly {
 	width:1.5em;
 	margin-left:-2em;
 	font-size:1em;
-	font-weight:500;
+	font-weight:500; /*900*/
 	line-height:1.5em;
 	text-align:right;
 	/* color:#e05431; */
 	color: #ff7a29;
-	font-family:'Fira Sans', sans-serif
+	font-family:'Fira Sans', sans-serif; /*default*/
 }
 .post-content ul>li:before{
 	margin-top:-1px;
