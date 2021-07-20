@@ -140,7 +140,7 @@ html{font-size:62.5%;overflow-x:hidden}
 
 body{
 	min-width: 320px;
-	font:400 1em / 1em 'Fira Sans', sans-serif;	/* [] fix line height */
+	font:400 1em / 1em 'equity_a', 'Fira Sans', sans-serif;	/* [] fix line height */
 	color:#222426;
 	text-rendering:optimizeLegibility;
 	-webkit-font-smoothing:antialiased;
