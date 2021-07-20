@@ -37,8 +37,40 @@ table{border-collapse:collapse;border-spacing:0}
 td,th{padding:0}
 
 
+@font-face {
+font-family: equity_a;
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('equity_a_regular.woff2') format('woff2');
+}
+
+@font-face {
+font-family: equity_a;
+font-style: italic;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('equity_a_italic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: equity_a;
+font-style: normal;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('equity_a_bold.woff2') format('woff2');
+}
 
 
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('myfont.woff2') format('woff2'),
+       url('myfont.woff') format('woff'),
+       url('myfont.ttf') format('truetype');
+}
 /* @font-face{
 	font-family:'Overlock', cursive;
 	font-style:normal;
