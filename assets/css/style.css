@@ -1846,11 +1846,11 @@ margin:0 0 4rem}
 
 .post-content code,.post-content tt{
 	position:relative;
-	margin:0 1px;
+	/* margin:0 1px; */
 	padding:4px 8px;
 	font-family:monospace, sans-serif;
 	font-size:0.75em;
-	font-size: 1.7rem;
+	/* font-size: 1.7rem; */
 	background:#f7f8fa;
 	border:1px solid #e1e3e6;
 	top:-2px;
