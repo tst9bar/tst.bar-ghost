@@ -1,6 +1,5 @@
 Readme
 
 # tst.bar-ghost
-Ghost Theme for https://tst.bar
+A half-baked Ghost theme for https://tst.bar.
 
-uoae
