@@ -1076,6 +1076,16 @@ span.badge-nightly {
 
 
 
+
+
+
+
+
+
+
+
+
+
 /* ---- 
  * ### blog pagination under container <div> at home -------- 
 */
@@ -1437,6 +1447,19 @@ span.badge-nightly {
 	/* background:#e05431; */
 	background:#ff7a29;
 }
+
+
+
+
+
+/* ---- ### page-sm -------- */
+.page-sm #page-sm-content{
+	padding-bottom: calc(2rem + 2vw);
+}
+
+
+
+
 
 
 
