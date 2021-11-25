@@ -33,7 +33,7 @@
 
 <div id="index" class="container">
 	<main class="content" role="main">
-		{{> "loop"}}
+		{{> "loop-sm"}}
 	</main>
 </div>
 
