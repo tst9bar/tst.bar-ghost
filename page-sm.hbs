@@ -32,11 +32,13 @@
 {{/post}}
 
 {{#get "posts"}}
+	{{#has tag="#sm"}}
 	<div id="index-custom" class="container">
 		<main class="content" role="main">
 			{{> "loop-sm"}}
 		</main>
 	</div>
+	{{/has}}
 {{/get}}
 
 
