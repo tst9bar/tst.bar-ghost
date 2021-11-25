@@ -31,12 +31,12 @@
 
 {{/post}}
 
-{{#get "posts" limit="all" filter="tag:#sm"}}
-		<div id="index-custom" class="container">
-			<main class="content" role="main">
-				{{> "loop-sm"}}
-			</main>
-		</div>
+{{#get "posts" limit="all" include="tags,authors"}}
+	<div id="index-custom" class="container">
+		<main class="content" role="main">
+			{{> "loop-sm"}}
+		</main>
+	</div>
 {{/get}}
 
 
