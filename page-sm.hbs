@@ -31,12 +31,13 @@
 
 {{/post}}
 
-<div id="index-custom" class="container">
-	<main class="content" role="main">
-		{{> "loop-sm"}}
-	</main>
-</div>
-
+{{#get "posts"}}
+	<div id="index-custom" class="container">
+		<main class="content" role="main">
+			{{> "loop-sm"}}
+		</main>
+	</div>
+{{/get}}
 
 
 
