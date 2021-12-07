@@ -1061,7 +1061,12 @@ span.badge-nightly {
 }
 
 
-.post-excerpt p{}	/* excerpt itself already p. should be p then excerpt. unlike post-content which is section, p inside the section */
+/* only for loop-sm */
+.post-excerpt p{
+	margin:0.8em 0 0;
+} /* excerpt itself already p. should be p then excerpt. unlike post-content which is section, p inside the section */
+
+
 .post-excerpt .post-excerpt-more{
 	font-weight: 400;
 	font-size: 1.6rem;
