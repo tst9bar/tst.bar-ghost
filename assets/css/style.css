@@ -210,13 +210,17 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 }
 .blog-header.has-cover:after{
 	display:none}
-.blog-header .blog-box{
+	
+	
+.blog-box{
 	position:relative;
 	/* z-index:10; */
 	padding-bottom:calc(4rem + 2vw);
 	border-bottom:1px solid #e1e3e6
 }
-	@media (prefers-color-scheme: dark){.blog-header .blog-box{border-color:#3b3d40}}
+	@media (prefers-color-scheme: dark){.blog-box{border-color:#3b3d40}}
+	
+	
 .blog-header.has-cover .blog-box{
 	border:none;
 	padding-bottom:calc(8rem + 4vw)
