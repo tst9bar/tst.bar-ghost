@@ -1463,7 +1463,7 @@ span.badge-nightly {
 
 /* ---- ### page-sm -------- */
 .page-sm #page-sm-content{
-	padding-bottom: calc(2rem + 2vw);
+	/*padding-bottom: calc(2rem + 2vw);*/
 }
 
 
