@@ -945,8 +945,8 @@ span.badge-nightly {
 }
 /* post <article> inner <div> post-box <div> */
 .container .post .post-box{
-	padding-top:calc((3.2rem * 0.5) + 2vw);
-	padding-bottom:calc((3.2rem * 0.8) + 2vw);
+	padding-top:calc((3.2rem * 0.8) + 2vw);
+	padding-bottom:calc((3.2rem * 0.6) + 2vw);
 	border-bottom:1px solid #e1e3e6;
 } /* padding 4rem seems too much to h2 bottom 0.8em */
 	@media (prefers-color-scheme: dark){.container .post .post-box{border-color:#3b3d40}}
