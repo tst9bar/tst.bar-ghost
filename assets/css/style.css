@@ -352,7 +352,7 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 
 .blog-description{
 	text-align:center;
-	font-family:'Josefin Slab', serif;
+	font-family:'equity_a', serif;
 	display:block;
 	/* margin-top:1rem; */
 	margin:0;
@@ -1640,7 +1640,7 @@ span.badge-nightly {
 .post-content blockquote{
 	display: block !important;
 	font-family:'Josefin Slab', 'creamfont', serif;
-	font-style:italic;
+	/*font-style:italic;*/
 	font-size: 1.9rem;
 	line-height:1.579em;
 	font-weight:400;
