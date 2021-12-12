@@ -134,7 +134,18 @@ src: url('/assets/font/equity_a_bold.woff2') format('woff2');
 
 
 
-html{font-size:62.5%;overflow-x:hidden}
+html{
+	font-size:62.5%;
+	overflow-x:hidden;
+	--page-color: white;
+	--ink-color: black;
+}
+	@media (prefers-color-scheme: dark) {
+		html {
+			--page-color: black;
+			--ink-color: white;
+		}
+	}
 .menu-active body,html.menu-active{overflow-y:hidden}
 
 
