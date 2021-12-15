@@ -15,7 +15,7 @@
 				<h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
 				{{/has}}
 			{{/has}}
-			<span class="post-meta">
+			<div class="post-meta">
 				<!-- {{t "typed by"}} -->
 				<!-- {{authors separator=", "}} -->
 				{{t "on"}}
@@ -25,7 +25,7 @@
 					{{t "—"}} <a class="post-meta-tag" href="{{url}}">{{name}}
 					</a>
 				{{/primary_tag}}
-			</span>
+			</div>
 			<div class="post-excerpt">
 				{{#has tag="#bit, #sm"}}
 					{{{content}}}
