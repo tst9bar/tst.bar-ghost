@@ -93,17 +93,18 @@
 
 								<h2 class="post-nav-title">{{title}}</h2>
 								<p class="post-nav-excerpt">{{excerpt words="12"}}&hellip;</p>
-								<p class="post-meta post-nav-meta"><time datetime="{{date format='DD-MM-YYYY'}}">{{t "on" date format="DD MMMM YYYY"}}</time></p>
+								<p class="post-meta post-nav-meta"><time datetime="{{date format='DD-MM-YYYY'}}">{{date format="DD MMMM YYYY"}}</time></p>
 							</section>
 						</a>
 					{{/next_post}}
+					
 					{{#prev_post}}
 						<a class="post-nav-prev" href="{{url}}">
 							<section class="post-nav-teaser">								<i class="icon icon-arrow-right" aria-label="{{t "Previous post"}}"></i>
 
 								<h2 class="post-nav-title">{{title}}</h2>
 								<p class="post-nav-excerpt">{{excerpt words="12"}}&hellip;</p>
-								<p class="post-meta post-nav-meta"><time datetime="{{date format='DD-MM-YYYY'}}">{{t "on" date format="DD MMMM YYYY"}}</time></p>
+								<p class="post-meta post-nav-meta"><time datetime="{{date format='DD-MM-YYYY'}}">{{date format="DD MMMM YYYY"}}</time></p>
 							</section>
 						</a>
 					{{/prev_post}}
