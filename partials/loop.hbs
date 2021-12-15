@@ -28,9 +28,9 @@
 			</span>
 			<div class="post-excerpt">
 				{{#has tag="#bit, #sm"}}
-					<p>{{{content}}}</p>
+					{{{content}}}
 				{{else}}
-					{{{excerpt}}} <span class="post-excerpt-more">[<a href="{{url}}">&hellip;mmhmm&hellip;</a>]</span>
+					<p>{{{excerpt}}}</p><span class="post-excerpt-more">[<a href="{{url}}">&hellip;mmhmm&hellip;</a>]</span>
 				{{/has}}
 			</div>
 		</div>
