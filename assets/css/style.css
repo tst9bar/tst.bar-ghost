@@ -1052,7 +1052,7 @@ span.badge-nightly {
 
 
 /* ---- ### post excerpt <div> in post <article> at home -------- */
-.post-excerpt{
+.post-excerpt p{
 	margin:0.6em 0 0;
 	/* margin-top:calc(0.7em + 1vw); */
 	font-size:2.0rem;	/* default usually 10px, at root 62.5%, just x10 https://engageinteractive.co.uk/blog/em-vs-rem-vs-px */
@@ -1079,8 +1079,6 @@ span.badge-nightly {
 .post-excerpt p:first-child{
 	margin:0.8em 0 0;
 }
-
-
 .post-excerpt .post-excerpt-more{
 	font-weight: 400;
 	font-size: 1.6rem;
