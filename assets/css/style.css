@@ -1033,6 +1033,7 @@ span.badge-nightly {
 .post-meta{
 	margin: 0 0 0;	/* span has no top bottom margin. either rely header bottom or excerpt top */	/* post-meta in <div> in individual */
 	font-size:1.4rem;
+	font-size:2rem;
 	line-height:1em;
 	font-family:'Open Sans', 'Lucida Grande', sans-serif;
 	font-weight:700;
