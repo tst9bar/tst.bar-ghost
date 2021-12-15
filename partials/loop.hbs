@@ -26,10 +26,11 @@
 					</a>
 				{{/primary_tag}}
 			</span>
-			<p class="post-excerpt">{{{excerpt}}}
+			<p class="post-excerpt">
 				{{#has tag="#bit, #sm"}}
+					{{{content}}}
 				{{else}}
-				<span class="post-excerpt-more">[<a href="{{url}}">&hellip;mmhmm&hellip;</a>]</span>
+					{{{excerpt}}} <span class="post-excerpt-more">[<a href="{{url}}">&hellip;mmhmm&hellip;</a>]</span>
 				{{/has}}
 			</p>
 		</div>
