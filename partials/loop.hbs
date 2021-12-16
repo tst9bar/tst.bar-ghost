@@ -22,7 +22,9 @@
 				<time datetime="{{date format='DD-MM-YYYY'}}">{{date format="DD MMMM YYYY"}}
 				</time>
 				{{#primary_tag}}
-					{{t "&nbsp; ‎⚇ &nbsp;"}}
+					<span>&nbsp;</span>
+					{{t "⚇"}}
+					<span>&nbsp;</span>
 					<a class="post-meta-tag" href="{{url}}">{{name}}</a>
 				{{/primary_tag}}
 			</div>
