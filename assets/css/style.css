@@ -38,6 +38,16 @@ td,th{padding:0}
 
 
 
+
+@font-face {
+font-family: AppleGaramondLight;
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('/assets/font/AppleGaramond-Light.ttf') format('ttf');
+}
+
 @font-face {
 font-family: equity_ot_b;
 font-style: normal;
@@ -1017,7 +1027,7 @@ span.badge-nightly {
 	font-size:3.2rem;
 	line-height:1.2em;
 	/* font-family:'Overlock', 'datk6', cursive; */
-	font-family:'Overlock', 'datw5', cursive;
+	font-family: 'AppleGaramondLight', 'Overlock', 'datw5', cursive;
 	font-style:normal;
 	font-weight:700;
 	text-indent:-1px;
@@ -1085,6 +1095,7 @@ span.badge-nightly {
 .post-excerpt .post-excerpt-more{
 	font-weight: 400;
 	font-size: 1.6rem;
+	opacity:;
 }
 .post-excerpt a{
 	text-decoration: none;
