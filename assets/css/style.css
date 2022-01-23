@@ -348,7 +348,7 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 
 .blog-description{
 	text-align:center;
-	font-family:'Josefin Slab', serif;
+	font-family: 'AppleGaramondLight', 'Josefin Slab', serif;
 	display:block;
 	/* margin-top:1rem; */
 	margin:0;
