@@ -1,6 +1,4 @@
-# Readme
-
-## tst.bar-ghost
+# tst.bar-ghost
 A half-baked Ghost theme for my blog https://tst.bar.
 
 <p align="center">
