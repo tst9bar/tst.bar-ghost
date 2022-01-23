@@ -45,7 +45,7 @@ font-style: normal;
 font-weight: normal;
 font-stretch: normal;
 font-display: auto;
-src: url('/assets/font/AppleGaramond-Light.ttf') format('ttf');
+src: url('/assets/font/AppleGaramond-Light.ttf') format('truetype');
 }
 
 @font-face {
