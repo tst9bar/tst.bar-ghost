@@ -1042,7 +1042,7 @@ span.badge-nightly {
 	font-size:2.0rem;	/* default usually 10px, at root 62.5%, just x10 https://engageinteractive.co.uk/blog/em-vs-rem-vs-px */
 	line-height:1.55em;
 	font-family: 'equity_ot_b', 'Josefin Slab', 'creamfont', serif;
-	opacity:0.75;
+	opacity:0.8;
 	/* color:inherit; */
 }
 	@media only screen and (max-width:428px) and (max-height:926px) and (orientation:portrait){
@@ -1475,7 +1475,7 @@ span.badge-nightly {
 .post-content p{
 	font-family: 'equity_ot_b', 'Josefin Slab', 'creamfont', serif;
 	margin:0 0 1.55em;
-	opacity: 0.75;
+	opacity: 0.8;
 }
 .post-content p:empty{
 	height: 1em;
