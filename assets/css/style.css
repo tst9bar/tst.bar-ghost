@@ -980,7 +980,6 @@ span.badge-nightly {
 .post{
 	position:relative;
 	z-index:10;
-	letter-spacing: 0.3px;
 }
 .post.tag-hash-zh{letter-spacing:0.3px;}
 
@@ -1022,6 +1021,7 @@ span.badge-nightly {
 	line-height:1em;
 	font-family:'Open Sans', 'Lucida Grande', sans-serif;
 	font-weight:700;
+	letter-spacing: 0.3px;
 	color:#50C019; /* #909499 */
 }
 	@media (prefers-color-scheme: dark){.post-meta{color:#50C019}}	/* #909499 */
