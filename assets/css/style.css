@@ -1475,6 +1475,9 @@ span.badge-nightly {
 	font-size:2.0rem;
 	line-height:1.55em;
 }	/* 2.3 1.565, 2.4 1.583 */	/* 1.55 + * ((100vw - 320px) / (428 - 320)) */
+	@media (prefers-color-scheme: dark) {
+		.post-content{font-size:1.9rem}
+	}
 .post-content p{
 	font-family: 'equity_ot_b', 'Josefin Slab', 'creamfont', serif;
 	margin:0 0 1.55em;
