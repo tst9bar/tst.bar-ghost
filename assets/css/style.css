@@ -136,7 +136,7 @@ html{
 
 body{
 	min-width: 320px;
-	font:500 1em / 1em 'Georgia', 'Times New Roman', serif;	/* [] fix line height */
+	font:500 1em / 1em 'Times New Roman', serif;	/* [] fix line height */
 	color:#222426;
 	text-rendering:optimizeLegibility;
 	-webkit-font-smoothing:antialiased;
@@ -348,7 +348,7 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 
 .blog-description{
 	text-align:center;
-	font-family: 'AppleGaramondLight', 'Josefin Slab', serif;
+	font-family: 'AppleGaramondLight', serif;
 	display:block;
 	/* margin-top:1rem; */
 	margin:0;
@@ -410,7 +410,7 @@ span.badge-nightly {
 .archive .archive-info .archive-count:after{content:'';position:absolute;left:-2rem;top:50%;width:1rem;height:1px;background:#c4c7cc}
 .archive .archive-title{font-size:4em;line-height:1em;margin:1rem 0;color:#000}
 	@media (prefers-color-scheme: dark){.archive .archive-title{color:#fafafa}}
-.archive .archive-description{display:block;font-size:2em;line-height:1.5em;margin:1rem 0;font-family:'Josefin Slab', serif;color:#909499}
+.archive .archive-description{display:block;font-size:2em;line-height:1.5em;margin:1rem 0;font-family:'equity_ot_b',serif;color:#909499}
 	@media (prefers-color-scheme: dark){.archive .archive-description{color:#909499}}
 .archive .archive-links{display:block;font-size:2em;line-height:1.5em;margin-top:1rem}
 .archive .archive-links a{color:#e05431;transition:color linear 0.1s}
@@ -1041,7 +1041,7 @@ span.badge-nightly {
 .post-excerpt{
 	font-size:2.0rem;	/* default usually 10px, at root 62.5%, just x10 https://engageinteractive.co.uk/blog/em-vs-rem-vs-px */
 	line-height:1.55em;
-	font-family: 'equity_ot_b', 'Josefin Slab', 'creamfont', serif;
+	font-family: 'equity_ot_b', 'creamfont', serif;
 	opacity:0.8;
 	/* color:inherit; */
 }
@@ -1487,7 +1487,7 @@ span.badge-nightly {
 		.post-content{font-size:1.9rem}
 	}
 .post-content p{
-	font-family: 'equity_ot_b', 'Josefin Slab', 'creamfont', serif;
+	font-family: 'equity_ot_b', 'creamfont', serif;
 	margin:0 0 1.55em;
 	opacity: 0.8;
 }
@@ -1591,7 +1591,7 @@ span.badge-nightly {
 
 
 .post-content ol,.post-content ul{
-	font-family: 'equity_ot_b', 'Josefin Slab', 'creamfont', serif;
+	font-family: 'equity_ot_b', 'creamfont', serif;
 	margin:0 0 3.1rem 3.1rem;
 	padding-left:2em;
 	box-sizing:border-box;
@@ -1645,7 +1645,7 @@ span.badge-nightly {
 /* ---- ### post blockquote -------- */
 .post-content blockquote{
 	display: block !important;
-	font-family:'Josefin Slab', 'creamfont', serif;
+	font-family:'equity_ot_b', 'creamfont', serif;
 	/*font-style:italic;*/
 	font-size: 1.9rem;
 	line-height:1.579em;
@@ -1948,7 +1948,7 @@ margin:0 0 4rem}
 	
 	
 .post-content dl{
-	font-family:'Josefin Slab', serif;margin:0 0 4rem;padding-left:30px}
+	font-family:'equity_ot_b',serif;margin:0 0 4rem;padding-left:30px}
 .post-content dl dt{
 	font-weight:500;font-size:0.75em;line-height:1.25em;font-weight:700;margin-bottom:0.33334em}
 .post-content dl dt:before{
@@ -2160,7 +2160,7 @@ margin:0 0 4rem}
 .post-nav-excerpt{
 	height:5rem;
 	margin:0 0 1rem;
-	font-family: 'equity_ot_b', 'Josefin Slab', 'creamfont', serif;
+	font-family: 'equity_ot_b', 'creamfont', serif;
 	font-size:1.75em;
 	line-height:2.5rem;
 	display:-webkit-box;
