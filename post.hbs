@@ -30,7 +30,7 @@
 				<h4 class="post-meta-author">{{authors separator=", "}}</h4>
 				{{/has}}
 				
-				on <time datetime="{{date format='DD-MM-YYYY'}}">{{date format="DD MMMM YYYY"}}</time>{{#has tag="#updated"}}  (Updated on <time datetime="{{date format='DD-MM-YYYY'}}">{{date updated_at format="DD MMMM YYYY"}}</time>){{/has}}
+				on <time datetime="{{date format='DD-MM-YYYY'}}">{{date format="DD MMMM YYYY"}}</time>  {{#has tag="#updated"}}(Updated on <time datetime="{{date format='DD-MM-YYYY'}}">{{date updated_at format="DD MMMM YYYY"}}</time>){{/has}}
 				<!-- &nobull; {{reading_time minute=(t "1 min read") minutes=(t "% min read")}}-->
 			</div>
 			{{#if feature_image}}
