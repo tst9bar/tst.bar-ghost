@@ -29,9 +29,10 @@
 				</div>
 				<h4 class="post-meta-author">{{authors separator=", "}}</h4>
 				{{/has}}
+				<span>on</span>
 				{{t "on"}}
 				<time datetime="{{date format='DD-MM-YYYY'}}">{{date format="DD MMMM YYYY"}}</time>
-				{{t "(Updated on"}}
+				{{t " (Updated on"}}
 				<time datetime="{{date format='DD-MM-YYYY'}}">{{date updated_at format="DD MMMM YYYY"}}</time>
 				{{t ")"}}
 				<!-- &nobull; {{reading_time minute=(t "1 min read") minutes=(t "% min read")}}-->
