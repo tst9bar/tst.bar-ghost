@@ -2036,8 +2036,15 @@ margin:0 0 4rem}
 	float:left;
 	display:flex;
 	flex-wrap:wrap
+	font-size:1.4rem;
+	line-height:1em;
+	font-family:'Open Sans', 'Lucida Grande', sans-serif;
+	font-weight:700;
+	letter-spacing: 0.3px;
+	color:#50C019;
 }
 	@media only screen and (max-width: 640px){.post-tags{max-width:none;float:none;margin-bottom:2rem}}
+	
 .post-tags a{
 	display:inline-block;
 	margin-right:0.5em;
