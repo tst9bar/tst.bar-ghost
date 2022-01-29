@@ -2057,7 +2057,8 @@ margin:0 0 4rem}
 	white-space:nowrap
 }
 .post-tags a:focus,.post-tags a:hover{
-	background:#d13f21
+	/* background:#d13f21; */
+	border-radius:0;
 }
 
 
