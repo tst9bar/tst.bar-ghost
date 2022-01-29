@@ -2027,7 +2027,9 @@ margin:0 0 4rem}
 
 
 .post-info-label{
-	margin-right:0.75em;font-size:1.5em;line-height:3.1rem;font-weight:500;color:#909499}
+	margin-right:0.75em;
+	/*font-size:1.5em;*/
+	line-height:3.1rem;font-weight:500;color:#909499}
 
 
 .post-tags{
@@ -2036,7 +2038,7 @@ margin:0 0 4rem}
 	float:left;
 	display:flex;
 	flex-wrap:wrap;
-	font-size:1.4rem;
+	font-size:1.3rem;
 	line-height:1em;
 	font-family:'Open Sans', 'Lucida Grande', sans-serif;
 	font-weight:700;
@@ -2052,7 +2054,7 @@ margin:0 0 4rem}
 	padding:0 1.5rem;
 	background:#e05431;
 	background: #ff7a29;
-	font-size:1.5em;
+	/*font-size:1.5em;*/
 	font-weight:500;
 	line-height:3.1rem;
 	text-align:center;
