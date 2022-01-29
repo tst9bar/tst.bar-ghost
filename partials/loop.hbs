@@ -17,7 +17,7 @@
 			{{/has}}
 			<div class="post-meta">
 				<!-- {{t "typed by"}} {{authors separator=", "}} -->
-				on <time datetime="{{date format='DD-MM-YYYY'}}">{{date format="DD MMMM YYYY"}}</time> &nbsp; {{#has tag="#updated"}}(Updated on <time datetime="{{date format='DD-MM-YYYY'}}">{{date updated_at format="DD MMMM YYYY"}}</time>){{/has}}
+				on <time datetime="{{date format='DD-MM-YYYY'}}">{{date format="DD MMMM YYYY"}}</time>{{#has tag="#updated"}} &nbsp; (Updated on <time datetime="{{date format='DD-MM-YYYY'}}">{{date updated_at format="DD MMMM YYYY"}}</time>){{/has}}
 				{{#primary_tag}}
 					<span>&nbsp;</span>
 					{{t "⚇"}}
