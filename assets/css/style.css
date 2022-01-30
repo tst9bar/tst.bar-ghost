@@ -122,6 +122,7 @@ src: url('/assets/font/equity_ot_b_bold_italic.woff2') format('woff2');
 html{
 	font-size:62.5%;
 	overflow-x:hidden;
+	--site-font: 'Open Sans', 'Lucida Grande', sans-serif;
 	--heading-font: 'AppleGaramondLight', 'datw5', cursive;
 	--text-font: 'equity_ot_b', 'creamfont', 'Times', 'Times New Roman', serif;
 	--text-green: #50C019;
@@ -378,7 +379,7 @@ span.badge-nightly {
 	font-size: 1.8rem;
 	/* font-weight: 700; */
 	line-height: 2.4rem;
-	font-family: 'Open Sans', 'Lucida Grande', sans-serif;
+	font-family:var(--site-font);
 	letter-spacing:0.07em;
 	padding: 0.3em 0.6em;
 	/* margin-left: 18px; */
@@ -410,7 +411,7 @@ span.badge-nightly {
 	@media (prefers-color-scheme: dark){.archive.archive-box{border-color:#3b3d40}}
 .archive .archive-info{
 	display:flex;margin-bottom:2rem;
-	font-family:'Open Sans', 'Lucida Grande', sans-serif;
+	font-family:var(--site-font);
 	font-size:2em;
 	line-height:1em}
 
@@ -425,7 +426,7 @@ span.badge-nightly {
 .archive .archive-info .archive-count:after{content:'';position:absolute;left:-2rem;top:50%;width:1rem;height:1px;background:#c4c7cc}
 
 .archive .archive-title{
-	font-family:'Open Sans','Lucida Grande',sans-serif;
+	font-family:var(--site-font);
 	font-size:3.6rem;
 	line-height:1em;
 	margin:1rem 0;
@@ -714,7 +715,7 @@ span.badge-nightly {
 	margin:auto;
 	padding:0;
 	list-style:none;
-	font-family: 'Open Sans', 'Lucida Grande', sans-serif;
+	font-family:var(--site-font);
 }
 	@media only screen and (max-width: 640px){.nav-header ul{flex-direction:column;flex-shrink:0;padding:2rem 0}}
 	
@@ -823,7 +824,7 @@ span.badge-nightly {
 	z-index:20;
 	padding-top:calc(9.3rem + 8vw);
 	padding-bottom:6.2rem;
-	font-family: 'Open Sans', 'Lucida Grande', sans-serif;
+	font-family:var(--site-font);
 	font-weight: 400;
 }
 .nav-footer .inner{
@@ -1041,7 +1042,7 @@ span.badge-nightly {
 	margin: 0 0 0;	/* span has no top bottom margin. either rely header bottom or excerpt top */	/* post-meta in <div> in individual */
 	font-size:1.4rem;
 	line-height:1em;
-	font-family:'Open Sans', 'Lucida Grande', sans-serif;
+	font-family:var(--site-font);
 	font-weight:700;
 	letter-spacing: 0.3px;
 	color:var(--text-green); /* #909499 */
@@ -2057,7 +2058,7 @@ margin:0 0 4rem}
 	flex-wrap:wrap;
 	font-size:1.3rem;
 	line-height:1em;
-	font-family:'Open Sans', 'Lucida Grande', sans-serif;
+	font-family:var(--site-font);
 	letter-spacing: 0.3px;
 	color:var(--text-green);
 }
