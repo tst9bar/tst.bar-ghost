@@ -1013,8 +1013,7 @@ span.badge-nightly {
 	/* margin-bottom:calc(0.7em + 1vw); */
 	font-size:3.2rem;
 	line-height:1.2em;
-	/* font-family:'Overlock', 'datk6', cursive; */
-	font-family: --heading-font;
+	font-family: var(--heading-font);
 	font-style:normal;
 	font-weight:700;
 	text-indent:-1px;
