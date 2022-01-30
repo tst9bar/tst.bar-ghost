@@ -429,8 +429,8 @@ span.badge-nightly {
 	font-size:3.6rem;
 	line-height:1em;
 	margin:1rem 0;
-	color:#50C019}
-	@media (prefers-color-scheme: dark){.archive .archive-title{color:#50C019}}
+	color:var(text-green)}
+	@media (prefers-color-scheme: dark){.archive .archive-title{color:var(text-green)}}
 	
 .archive .archive-description{display:block;font-size:2em;line-height:1.5em;margin:1rem 0;font-family:'equity_ot_b',serif;color:#909499}
 	@media (prefers-color-scheme: dark){.archive .archive-description{color:#909499}}
@@ -1036,18 +1036,17 @@ span.badge-nightly {
 
 
 
-/* ---- ### post meta <span> for date author primary tag at home. loop.hbs -------- */
+/* ---- ### post meta <span> for date author primary tag at home. -------- */
 .post-meta{
 	margin: 0 0 0;	/* span has no top bottom margin. either rely header bottom or excerpt top */	/* post-meta in <div> in individual */
 	font-size:1.4rem;
-	/*font-size:1.6rem;*/
 	line-height:1em;
 	font-family:'Open Sans', 'Lucida Grande', sans-serif;
 	font-weight:700;
 	letter-spacing: 0.3px;
-	color:#50C019; /* #909499 */
+	color:var(text-green); /* #909499 */
 }
-	@media (prefers-color-scheme: dark){.post-meta{color:#50C019}}	/* #909499 */
+	@media (prefers-color-scheme: dark){.post-meta{color:var(text-green)}}	/* #909499 */
 .post-meta a{
 	display:inline-block;
 	text-decoration:none;
@@ -2058,7 +2057,7 @@ margin:0 0 4rem}
 	line-height:1em;
 	font-family:'Open Sans', 'Lucida Grande', sans-serif;
 	letter-spacing: 0.3px;
-	color:#50C019;
+	color:var(text-green);
 }
 	@media only screen and (max-width: 640px){.post-tags{max-width:none;float:none;margin-bottom:2rem}}
 	
