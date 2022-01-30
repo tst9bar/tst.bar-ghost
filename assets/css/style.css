@@ -122,7 +122,7 @@ src: url('/assets/font/equity_ot_b_bold_italic.woff2') format('woff2');
 html{
 	font-size:62.5%;
 	overflow-x:hidden;
-	--heading-font: 'AppleGaramondLight', 'Times', serif;
+	--heading-font: 'AppleGaramondLight', 'datw5', cursive;
 /*	--page-color: #f8f8ff;
 	--page-color: rgb(248,248,248,0.7);
 	--ink-color: #222426;*/
@@ -349,7 +349,7 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 
 .blog-description{
 	text-align:center;
-	font-family: --heading-font;
+	font-family: 'AppleGaramondLight', 'Times', serif;
 	display:block;
 	/* margin-top:1rem; */
 	margin:0;
@@ -1014,7 +1014,7 @@ span.badge-nightly {
 	font-size:3.2rem;
 	line-height:1.2em;
 	/* font-family:'Overlock', 'datk6', cursive; */
-	font-family: 'AppleGaramondLight', 'Overlock', 'datw5', cursive;
+	font-family: --heading-font;
 	font-style:normal;
 	font-weight:700;
 	text-indent:-1px;
