@@ -125,8 +125,8 @@ html{
 	--site-font: 'Open Sans', 'Lucida Grande', sans-serif;
 	--heading-font: 'AppleGaramondLight', 'datw5', cursive;
 	--text-font: 'equity_ot_b', 'creamfont', 'Times', 'Times New Roman', serif;
-	--page-color: #f8f8ff;
-	--page-color: rgb(248,248,248,0.7);
+	--page-colour: #f8f8ff;
+	--page-colour: rgb(248,248,248,0.7);
 	--text-colour: #222426;
 	--text-green: #50C019;
 	--text-orange: #ff7a29;
@@ -1127,7 +1127,8 @@ span.badge-nightly {
 */
 .pagination{
 	position:relative;
-	margin:0
+	margin:0;
+	font-family:var(--site-font);
 }
 
 .pagination .pagination-box{
@@ -1146,21 +1147,23 @@ span.badge-nightly {
 	padding:1rem 2rem;
 	z-index:100;
 	border:1px solid #c4c7cc;
-	font-size:1.5rem;
+	font-size:1.4rem;
 	line-height:1em;
 	font-weight:500;
 	text-align:center;
+	font-spacing:0.3px;
 	text-decoration:none;
 	color:#909499;
 	transition:all ease 0.2s;
-	/* border-radius:4rem; */
-	border-radius:1rem;
+	border-radius:1.2rem;
 	box-sizing:border-box;
 }
 	@media (prefers-color-scheme: dark){.pagination a{border-color:#909499;color:#c4c7cc}}
+	
 .pagination a:focus,.pagination a:hover{
 	/* color:#d13f21; */
 	color:var(--text-orange);
+	border-radius:0;
 	border-color:var(--text-orange);
 }
 .pagination .pagination-prev{
@@ -1176,7 +1179,7 @@ span.badge-nightly {
 .pagination .pagination-info{
 	position:absolute;
 	width:100%;
-	font-size:1.5em;
+	font-size:1.4rem;
 	line-height:4rem;
 	height:4rem;
 	left:0;
