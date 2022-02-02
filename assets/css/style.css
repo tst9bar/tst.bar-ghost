@@ -62,7 +62,7 @@ font-family: equity_ot_b;
 font-style: italic;
 font-weight: normal;
 font-stretch: normal;
-font-display: auto;
+font-display: swap;
 src: url('/assets/font/equity_ot_b_italic.woff2') format('woff2');
 }
 
@@ -71,7 +71,7 @@ font-family: equity_ot_b;
 font-style: normal;
 font-weight: bold;
 font-stretch: normal;
-font-display: auto;
+font-display: swap;
 src: url('/assets/font/equity_ot_b_bold.woff2') format('woff2');
 }
 
@@ -80,7 +80,7 @@ font-family: equity_ot_b;
 font-style: italic;
 font-weight: bold;
 font-stretch: normal;
-font-display: auto;
+font-display: swap;
 src: url('/assets/font/equity_ot_b_bold_italic.woff2') format('woff2');
 }
 
