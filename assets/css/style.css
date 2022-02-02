@@ -2260,45 +2260,6 @@ margin:0 0 4rem}
 
 
 
-/* ---- ### post comment -------- */
-/* .post-comments{
-	position:relative;
-	padding:4rem;
-	text-align:center;
-	border-top:1px solid #e1e3e6;
-	border-bottom:1px solid #e1e3e6;
-	box-sizing:border-box
-}
-	@media (prefers-color-scheme: dark){.post-comments{border-color:#3b3d40}}
-.post-comments.activated{
-	background:#f7f8fa;border:1px solid #e1e3e6}
-	@media (prefers-color-scheme: dark){.post-comments.activated{background:#333;border-color:#3b3d40}}
-.post-comments-activate{
-	display:inline-block;
-	height:4rem;
-	margin:2rem 0;
-	padding:0 2rem;
-	border:1px solid #c4c7cc;
-	font-weight:500;
-	font-size:1.5em;
-	line-height:4rem;
-	color:#909499;
-	text-align:center;
-	cursor:pointer;
-	transition:all ease 0.2s;
-	border-radius:2em
-}
-	@media (prefers-color-scheme: dark){.post-comments-activate{border-color:#909499;color:#c4c7cc}}
-.post-comments-activate:focus,.post-comments-activate:hover{
-	color:#d13f21;
-	border-color:#d13f21
-}
-.activated .post-comments-activate{
-	display:none} */
-
-
-
-
 /* ----  ### post subscribe -------- */
 /* .post-subscribe{
 	position:relative;
