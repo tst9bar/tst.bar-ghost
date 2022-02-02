@@ -6,6 +6,6 @@ A half-baked Ghost theme for my blog https://tst.bar.
     <a href="https://tst.bar/readme/">me</a> .
     <a href="https://tst.bar/ius/">iüs</a> .
     <a href="https://tst.bar/sm/">sm</a> .
-    <a href="hello@tst.bar">say hi</a>
+    <a href="mailto:hello@tst.bar">say hi</a>
   </samp>
 </p>
