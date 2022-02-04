@@ -1624,7 +1624,8 @@ span.badge-nightly {
 
 .post-content ol,.post-content ul{
 	font-family:var(--text-font);
-	margin:0 0 3.1rem 3.1rem;
+	/*margin:0 0 3.1rem 3.1rem;*/
+	margin:0 0 0 1em;
 	padding-left:2em;
 	box-sizing:border-box;
 }
@@ -1633,19 +1634,17 @@ span.badge-nightly {
 }
 .post-content li{
 	position:relative;
-	margin-bottom: 1.2rem;
+	/*margin-bottom: 1.2rem;*/
 }
 .post-content ol>li:before,.post-content ul>li:before{
 	position:absolute;
 	width:1.5em;
 	margin-left:-2em;
 	font-size:1em;
-	font-weight:500; /*900*/
-	line-height:1.5em;
+	/*line-height:1.5em;*/
 	text-align:right;
-	/* color:#e05431; */
-	color:var(--text-orange);
-	font-family:'Fira Sans', sans-serif; /*default*/
+	color:var(--text-colour);
+	/* font-family:'Fira Sans', sans-serif; /*default*/
 }
 .post-content ul>li:before{
 	margin-top:-1px;
