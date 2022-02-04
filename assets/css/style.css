@@ -1644,6 +1644,7 @@ span.badge-nightly {
 	/*line-height:1.5em;*/
 	text-align:right;
 	color:var(--text-colour);
+	opacity:0.8;
 	/* font-family:'Fira Sans', sans-serif; /*default*/
 }
 .post-content ul>li:before{
