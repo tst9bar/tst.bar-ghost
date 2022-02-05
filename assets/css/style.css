@@ -131,13 +131,14 @@ html{
 	--border-light: #e1e3e6;
 	--border-dark: #3b3d40;
 	--text-colour: #222426;
+	--text-light: #fafafa;
+	--text-dark: #222426;
 	--text-green: #50C019;
 	--text-orange: #ff7a29;
 
 }
 	@media (prefers-color-scheme:dark){html{
 		--page-colour: #333;
-		--page-colour2: #909499;
 		--text-colour: #fafafa;
 
 	}}
