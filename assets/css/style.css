@@ -801,7 +801,7 @@ span.badge-nightly {
 .nav-header li a:focus,.nav-header li a:hover{
 	color:var(--border-inverted);
 }
-	@media only screen and (max-width: 640px){.nav-header li a:focus,.nav-header li a:hover{color:var(--border-inverted)}}
+	@media only screen and (max-width: 640px){.nav-header li a:focus,.nav-header li a:hover{color:var(--border-colour)}}
 	@media only screen and (max-width: 640px) and (prefers-color-scheme: dark){.nav-header li a:focus,.nav-header li a:hover{color:var(--border-inverted)}}
 	
 	
