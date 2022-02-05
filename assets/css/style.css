@@ -128,7 +128,8 @@ html{
 	--page-colour: #f8f8ff;
 	--page-colour: rgb(248,248,248,0.7);
 	--page-colour2: #909499;
-	--border-colour: #3b3d40;
+	--border-light: 
+	--border-dark: #3b3d40;
 	--text-colour: #222426;
 	--text-green: #50C019;
 	--text-orange: #ff7a29;
@@ -137,7 +138,6 @@ html{
 	@media (prefers-color-scheme:dark){html{
 		--page-colour: #333;
 		--page-colour2: #909499;
-		--border-colour: #3b3d40;
 		--text-colour: #fafafa;
 
 	}}
@@ -170,7 +170,7 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	border:2px solid #e1e3e6;
 	background:#e1e3e6;
 	box-sizing:border-box}
-	@media (prefers-color-scheme: dark){.avatar{border-color:var(--border-colour);background:var(--border-colour)}}
+	@media (prefers-color-scheme: dark){.avatar{border-color:var(--border-dark);background:var(--border-dark)}}
 .avatar:after,.avatar:before{
 	content:'';
 	position:absolute;
@@ -224,7 +224,7 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	padding-bottom:calc(4rem + 2vw);
 	border-bottom:1px solid #e1e3e6
 }
-	@media (prefers-color-scheme: dark){.blog-box{border-color:var(--border-colour)}}
+	@media (prefers-color-scheme: dark){.blog-box{border-color:var(--border-dark)}}
 	
 	
 .blog-header.has-cover .blog-box{
@@ -413,7 +413,7 @@ span.badge-nightly {
 }
 .archive.archive-box{
 	padding-bottom:calc(4rem + 2vw);border-bottom:1px solid #e1e3e6}
-	@media (prefers-color-scheme: dark){.archive.archive-box{border-color:var(--border-colour)}}
+	@media (prefers-color-scheme: dark){.archive.archive-box{border-color:var(--border-dark)}}
 .archive .archive-info{
 	display:flex;margin-bottom:2rem;
 	font-family:var(--site-font);
@@ -654,7 +654,7 @@ span.badge-nightly {
 .menu-active .nav-header .nav-wrapper-control{
 	background:#222426;
 	color:#909499;
-	border-color:#3b3d40
+	border-color:var(--border-dark);
 }
 	@supports (-webkit-backdrop-filter: blur(2rem)){.menu-active .nav-header .nav-wrapper-control{background:rgba(34,36,38,0.9);-webkit-backdrop-filter:blur(2rem)}}
 	
@@ -759,7 +759,7 @@ span.badge-nightly {
 	}}
 	
 .nav-header li.active a{
-	/* color:#3b3d40; */
+	/* color:var(--border-dark); */
 	font-weight:700;
 	opacity:0.6;
 }
@@ -793,11 +793,11 @@ span.badge-nightly {
 			margin-left:6px;
 			margin-top:-1px;
 			border-radius:2px;
-			background:#3b3d40;
+			background:var(--border-dark);
 		}
 	}
 .nav-header li a:focus,.nav-header li a:hover{
-	color:#3b3d40;
+	color:var(--border-dark);
 }
 	@media (prefers-color-scheme: dark){.nav-header li a:focus,.nav-header li a:hover{color:#e1e3e6}}
 	@media only screen and (max-width: 640px){.nav-header li a:focus,.nav-header li a:hover{color:#c4c7cc}}
@@ -882,11 +882,11 @@ span.badge-nightly {
 	cursor:pointer;
 }
 .nav-footer li.active a{
-	/* color:#3b3d40; */
+	/* color:var(--border-dark); */
 	/* font-weight:400; */
 }
 .nav-footer li a:focus,.nav-footer li a:hover{
-	color:#3b3d40;
+	color:var(--border-dark);
 }
 	@media (prefers-color-scheme: dark){.nav-footer li a:focus,.nav-footer li a:hover{color:rgba(250,250,250,0.5)}} /* #e1e3e6 */
 
@@ -975,14 +975,14 @@ span.badge-nightly {
 	padding-bottom:calc((3.2rem * 0.6) + 2vw);
 	border-bottom:1px solid #e1e3e6;
 } /* padding 4rem seems too much to h2 bottom 0.8em */
-	@media (prefers-color-scheme: dark){.container .post .post-box{border-color:var(--border-colour)}}
+	@media (prefers-color-scheme: dark){.container .post .post-box{border-color:var(--border-dark)}}
 	
 	
 	
 .container #results .post .post-box{
 	border-top:1px solid #e1e3e6
 }
-	@media (prefers-color-scheme: dark){.container #results .post .post-box{border-color:var(--border-colour)}}
+	@media (prefers-color-scheme: dark){.container #results .post .post-box{border-color:var(--border-dark)}}
 	
 	
 	
@@ -1202,7 +1202,7 @@ span.badge-nightly {
 .paged .extra-pagination .pagination-box{
 	border-bottom:1px solid #e1e3e6
 }
-	@media (prefers-color-scheme: dark){.paged .extra-pagination .pagination-box{border-color:var(--border-colour)}}
+	@media (prefers-color-scheme: dark){.paged .extra-pagination .pagination-box{border-color:var(--border-dark)}}
 
 
 
@@ -1217,7 +1217,7 @@ span.badge-nightly {
 }
 	@media (prefers-color-scheme: dark){#search{background:#333}}
 	@media only screen and (max-width: 640px){#search{display:block;transition:all ease-out 0.3s;transform:translate3d(0, 100%, 0);border-top:1px solid #e1e3e6}}
-	@media only screen and (max-width: 640px) and (prefers-color-scheme: dark){#search{border-color:#3b3d40}}
+	@media only screen and (max-width: 640px) and (prefers-color-scheme: dark){#search{border-color:var(--border-dark)}}
 #search #results{
 	padding-bottom:calc(12rem + 8vw)
 }
@@ -1239,7 +1239,7 @@ span.badge-nightly {
 	box-shadow:none !important;
 	outline:0 !important
 }
-	@media (prefers-color-scheme: dark){.search input[type="text"]{border-color:#3b3d40;background:#333}}
+	@media (prefers-color-scheme: dark){.search input[type="text"]{border-color:var(--border-dark);background:#333}}
 .search input[type="text"]:focus,.search input[type="text"]:hover{
 	border-color:#d13f21}
 .search input[type="submit"]{
@@ -1414,7 +1414,7 @@ span.badge-nightly {
 	height:1px;
 	background:#e1e3e6
 } */
-	@media (prefers-color-scheme: dark){.post-header .post-meta:before{background:var(--border-colour)}}
+	@media (prefers-color-scheme: dark){.post-header .post-meta:before{background:var(--border-dark)}}
 
 
 /* ---- #### author in post meta -------- */	/* hidden */
@@ -1669,7 +1669,7 @@ span.badge-nightly {
 	background:#e1e3e6;
 	border:0
 }
-	@media (prefers-color-scheme: dark){.post-content hr.footnotes-sep{background:var(--border-colour)}}
+	@media (prefers-color-scheme: dark){.post-content hr.footnotes-sep{background:var(--border-dark)}}
 
 
 /* ---- ### post blockquote -------- */
@@ -1773,19 +1773,19 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	height:1px;
 	background:#e1e3e6
 }
-	@media (prefers-color-scheme: dark){.post-content figure figcaption:after{background:var(--border-colour)}}
+	@media (prefers-color-scheme: dark){.post-content figure figcaption:after{background:var(--border-dark)}}
 	
 	
 .post-content figure figcaption a{
 	box-shadow:inset 0 -1px 0 #e1e3e6
 }
-	@media (prefers-color-scheme: dark){.post-content figure figcaption a{box-shadow:inset 0 -1px 0 var(--border-colour)}}
+	@media (prefers-color-scheme: dark){.post-content figure figcaption a{box-shadow:inset 0 -1px 0 var(--border-dark)}}
 	
 	
 .post-content figure figcaption a:focus,.post-content figure figcaption a:hover{
 	box-shadow:inset 0 -2px 0 #e1e3e6
 }
-	@media (prefers-color-scheme: dark){.post-content figure figcaption a:focus,.post-content figure figcaption a:hover{box-shadow:inset 0 -2px 0 var(--border-colour)}}
+	@media (prefers-color-scheme: dark){.post-content figure figcaption a:focus,.post-content figure figcaption a:hover{box-shadow:inset 0 -2px 0 var(--border-dark)}}
 
 
 .post-content .kg-image-card{
@@ -1872,7 +1872,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	box-shadow:none !important;
 	overflow:hidden
 }
-	@media (prefers-color-scheme: dark){.post-content .kg-bookmark-container{background:#333;border-color:var(--border-colour)}}
+	@media (prefers-color-scheme: dark){.post-content .kg-bookmark-container{background:#333;border-color:var(--border-dark)}}
 	
 .post-content .kg-bookmark-content{
 	text-rendering:optimizeLegibility;
@@ -1960,7 +1960,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	top:-2px;
 	white-space:pre-wrap
 }
-	@media (prefers-color-scheme: dark){.post-content code,.post-content tt{background:#333;border-color:var(--border-colour)}}
+	@media (prefers-color-scheme: dark){.post-content code,.post-content tt{background:#333;border-color:var(--border-dark)}}
 	
 	
 .post-content pre{
@@ -1973,7 +1973,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	background:#f7f8fa;
 	border:1px solid #e1e3e6;
 	box-sizing:border-box}
-	@media (prefers-color-scheme: dark){.post-content pre{background:#333;border-color:var(--border-colour)}}
+	@media (prefers-color-scheme: dark){.post-content pre{background:#333;border-color:var(--border-dark)}}
 .post-content pre .lines{
 	position:absolute;
 	width:2.66667em;
@@ -1991,7 +1991,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	user-select:none;
 	-webkit-user-select:none
 }
-	@media (prefers-color-scheme: dark){.post-content pre .lines{background:#333;border-color:var(--border-colour)}}
+	@media (prefers-color-scheme: dark){.post-content pre .lines{background:#333;border-color:var(--border-dark)}}
 .post-content pre .lines .line{
 	display:block;padding-right:0.33334em
 }
@@ -2035,15 +2035,15 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	border-radius:4px;
 	box-shadow:0 1px 0 rgba(0,0,0,0.2),0 1px 0 0 #fff inset
 }
-	@media (prefers-color-scheme: dark){.post-content kbd{background:#333;border-color:var(--border-colour)}}
+	@media (prefers-color-scheme: dark){.post-content kbd{background:#333;border-color:var(--border-dark)}}
 	
 	
 .post-content table{
 	position:relative;width:100%;max-width:100%;margin:0 0 4rem;border:1px solid #e1e3e6;background:#f7f8fa}
-	@media (prefers-color-scheme: dark){.post-content table{border-color:var(--border-colour);background:#333}}
+	@media (prefers-color-scheme: dark){.post-content table{border-color:var(--border-dark);background:#333}}
 .post-content table td,.post-content table th{
 	position:relative;padding:1.5rem;font-size:0.75em;line-height:1.33334em;border:1px solid #e1e3e6}
-	@media (prefers-color-scheme: dark){.post-content table td,.post-content table th{border-color:var(--border-colour)}}
+	@media (prefers-color-scheme: dark){.post-content table td,.post-content table th{border-color:var(--border-dark)}}
 .post-content table th{
 	text-align:left;font-weight:500;letter-spacing:1px;font-size:0.75em;line-height:1.33334em;color:var(--page-colour2)}
 	
@@ -2138,7 +2138,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	/* border-top:1px solid #e1e3e6; */
 	border-bottom:1px solid #e1e3e6;
 }
-	@media (prefers-color-scheme: dark){.post-nav{border-color:var(--border-colour)}}
+	@media (prefers-color-scheme: dark){.post-nav{border-color:var(--border-dark)}}
 .post-nav:after{
 	position:absolute;
 	content:'';
@@ -2148,7 +2148,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	background:#e1e3e6;
 	z-index:2;
 }
-	@media (prefers-color-scheme: dark){.post-nav:after{background:var(--border-colour)}}
+	@media (prefers-color-scheme: dark){.post-nav:after{background:var(--border-dark)}}
 	@media only screen and (max-width: 640px){.post-nav:after{display:none}}
 .post-nav-next,.post-nav-prev{
 	text-decoration:none;
@@ -2185,7 +2185,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	min-height:8rem;
 }
 	@media only screen and (max-width: 640px){.post-nav-teaser{min-height:4em;padding:2em 0}.post-nav-teaser:after{position:absolute;content:'';width:100%;height:1px;left:0;bottom:0;margin-bottom:-1px;background:#e1e3e6;z-index:2}}
-	@media only screen and (max-width: 640px) and (prefers-color-scheme: dark){.post-nav-teaser:after{background:var(--border-colour)}}
+	@media only screen and (max-width: 640px) and (prefers-color-scheme: dark){.post-nav-teaser:after{background:var(--border-dark)}}
 
 
 .post-nav i{
@@ -2202,7 +2202,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	color:#222426;
 	opacity:0.8;
 }
-	@media (prefers-color-scheme: dark){.post-nav i{color:var(--border-colour)}}
+	@media (prefers-color-scheme: dark){.post-nav i{color:var(--border-dark)}}
 .post-nav i:before{
 	margin:0;
 	width:auto;
@@ -2291,7 +2291,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	padding:4rem 0;
 	margin:1em 0;
 	text-align:center;
-	background:#3b3d40;
+	background:var(--border-dark);
 	color:#c4c7cc;
 	box-sizing:border-box;
 	border-radius:2px
@@ -2318,7 +2318,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	box-shadow:none;
 	box-sizing:border-box;
 	border-radius:4em 0 0 4em;
-	color:#3b3d40
+	color:var(--border-dark)
 }
 .post-subscribe .post-subscribe-form .post-subscribe-button{
 	display:inline-block;
