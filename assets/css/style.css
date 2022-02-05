@@ -128,7 +128,7 @@ html{
 	--page-colour: #f8f8ff;
 	--page-colour: rgb(248,248,248,0.7);
 	--page-colour2: #909499;
-	--border-light: 
+	--border-light: #e1e3e6;
 	--border-dark: #3b3d40;
 	--text-colour: #222426;
 	--text-green: #50C019;
@@ -167,8 +167,8 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	position:relative;
 	overflow:hidden;
 	margin:0;
-	border:2px solid #e1e3e6;
-	background:#e1e3e6;
+	border:2px solid var(--border-light);
+	background:var(--border-light);
 	box-sizing:border-box}
 	@media (prefers-color-scheme: dark){.avatar{border-color:var(--border-dark);background:var(--border-dark)}}
 .avatar:after,.avatar:before{
@@ -222,7 +222,7 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	position:relative;
 	/* z-index:10; */
 	padding-bottom:calc(4rem + 2vw);
-	border-bottom:1px solid #e1e3e6
+	border-bottom:1px solid var(--border-light)
 }
 	@media (prefers-color-scheme: dark){.blog-box{border-color:var(--border-dark)}}
 	
@@ -412,7 +412,7 @@ span.badge-nightly {
 	z-index:10
 }
 .archive.archive-box{
-	padding-bottom:calc(4rem + 2vw);border-bottom:1px solid #e1e3e6}
+	padding-bottom:calc(4rem + 2vw);border-bottom:1px solid var(--border-light)}
 	@media (prefers-color-scheme: dark){.archive.archive-box{border-color:var(--border-dark)}}
 .archive .archive-info{
 	display:flex;margin-bottom:2rem;
@@ -646,7 +646,7 @@ span.badge-nightly {
 .nav-header .nav-wrapper-control button:focus,.nav-header .nav-wrapper-control button:hover{
 	color:#222426
 }
-	@media (prefers-color-scheme: dark){.nav-header .nav-wrapper-control button:focus,.nav-header .nav-wrapper-control button:hover{color:#e1e3e6}}
+	@media (prefers-color-scheme: dark){.nav-header .nav-wrapper-control button:focus,.nav-header .nav-wrapper-control button:hover{color:var(--border-light)}}
 	
 .cover-active .nav-header .nav-wrapper-control{
 	color:#fafafa
@@ -659,7 +659,7 @@ span.badge-nightly {
 	@supports (-webkit-backdrop-filter: blur(2rem)){.menu-active .nav-header .nav-wrapper-control{background:rgba(34,36,38,0.9);-webkit-backdrop-filter:blur(2rem)}}
 	
 .menu-active .nav-header .nav-wrapper-control a:focus,.menu-active .nav-header .nav-wrapper-control button:hover{
-	color:#e1e3e6
+	color:var(--border-light)
 }
 
 .menu-active .nav-header .nav-wrapper-control .button{
@@ -763,7 +763,7 @@ span.badge-nightly {
 	font-weight:700;
 	opacity:0.6;
 }
-	@media (prefers-color-scheme: dark){.nav-header li.active a{color:#e1e3e6}}
+	@media (prefers-color-scheme: dark){.nav-header li.active a{color:var(--border-light)}}
 	@media only screen and (max-width: 640px){.nav-header li.active a{color:#fafafa}}
 .nav-header li a{
 	display:block;
@@ -799,7 +799,7 @@ span.badge-nightly {
 .nav-header li a:focus,.nav-header li a:hover{
 	color:var(--border-dark);
 }
-	@media (prefers-color-scheme: dark){.nav-header li a:focus,.nav-header li a:hover{color:#e1e3e6}}
+	@media (prefers-color-scheme: dark){.nav-header li a:focus,.nav-header li a:hover{color:var(--border-light)}}
 	@media only screen and (max-width: 640px){.nav-header li a:focus,.nav-header li a:hover{color:#c4c7cc}}
 /* .nav-header li.nav-facebook,.nav-header li.nav-rss,.nav-header li.nav-search,.nav-header li.nav-subscribe,.nav-header li.nav-twitter{margin-right:1.5rem} */
 /* .nav-header li.nav-facebook a,.nav-header li.nav-rss a,.nav-header li.nav-search a,.nav-header li.nav-subscribe a,.nav-header li.nav-twitter a{font-size:1.75em} */
@@ -888,7 +888,7 @@ span.badge-nightly {
 .nav-footer li a:focus,.nav-footer li a:hover{
 	color:var(--border-dark);
 }
-	@media (prefers-color-scheme: dark){.nav-footer li a:focus,.nav-footer li a:hover{color:rgba(250,250,250,0.5)}} /* #e1e3e6 */
+	@media (prefers-color-scheme: dark){.nav-footer li a:focus,.nav-footer li a:hover{color:rgba(250,250,250,0.5)}} /* var(--border-light) */
 
 
 /* ---- #### footer national delete -------- */
@@ -973,14 +973,14 @@ span.badge-nightly {
 .container .post .post-box{
 	padding-top:calc((3.2rem * 0.8) + 2vw);
 	padding-bottom:calc((3.2rem * 0.6) + 2vw);
-	border-bottom:1px solid #e1e3e6;
+	border-bottom:1px solid var(--border-light);
 } /* padding 4rem seems too much to h2 bottom 0.8em */
 	@media (prefers-color-scheme: dark){.container .post .post-box{border-color:var(--border-dark)}}
 	
 	
 	
 .container #results .post .post-box{
-	border-top:1px solid #e1e3e6
+	border-top:1px solid var(--border-light)
 }
 	@media (prefers-color-scheme: dark){.container #results .post .post-box{border-color:var(--border-dark)}}
 	
@@ -1200,7 +1200,7 @@ span.badge-nightly {
 	display:block
 }
 .paged .extra-pagination .pagination-box{
-	border-bottom:1px solid #e1e3e6
+	border-bottom:1px solid var(--border-light)
 }
 	@media (prefers-color-scheme: dark){.paged .extra-pagination .pagination-box{border-color:var(--border-dark)}}
 
@@ -1216,7 +1216,7 @@ span.badge-nightly {
 	display:none
 }
 	@media (prefers-color-scheme: dark){#search{background:#333}}
-	@media only screen and (max-width: 640px){#search{display:block;transition:all ease-out 0.3s;transform:translate3d(0, 100%, 0);border-top:1px solid #e1e3e6}}
+	@media only screen and (max-width: 640px){#search{display:block;transition:all ease-out 0.3s;transform:translate3d(0, 100%, 0);border-top:1px solid var(--border-light)}}
 	@media only screen and (max-width: 640px) and (prefers-color-scheme: dark){#search{border-color:var(--border-dark)}}
 #search #results{
 	padding-bottom:calc(12rem + 8vw)
@@ -1233,7 +1233,7 @@ span.badge-nightly {
 .search input[type="text"]{
 	font-size:2em;width:100%;height:5rem;
 	margin:-0.5rem 0;
-	padding:0 2rem;border-radius:5rem;border:1px solid #e1e3e6;
+	padding:0 2rem;border-radius:5rem;border:1px solid var(--border-light);
 	background:#f7f8fa;
 	box-sizing:border-box;
 	box-shadow:none !important;
@@ -1412,7 +1412,7 @@ span.badge-nightly {
 	bottom:0;
 	width:8rem;
 	height:1px;
-	background:#e1e3e6
+	background:var(--border-light)
 } */
 	@media (prefers-color-scheme: dark){.post-header .post-meta:before{background:var(--border-dark)}}
 
@@ -1423,7 +1423,7 @@ span.badge-nightly {
 	font-weight:500;
 	margin:0;
 }
-	@media (prefers-color-scheme: dark){.post-header .post-meta .post-meta-author{color:#e1e3e6}}	/*dark font colour option for white */
+	@media (prefers-color-scheme: dark){.post-header .post-meta .post-meta-author{color:var(--border-light)}}	/*dark font colour option for white */
 
 
 /* ---- post meta with cover -------- */
@@ -1666,7 +1666,7 @@ span.badge-nightly {
 	height:1px;
 	margin:4em 0 2em;
 	padding:0;
-	background:#e1e3e6;
+	background:var(--border-light);
 	border:0
 }
 	@media (prefers-color-scheme: dark){.post-content hr.footnotes-sep{background:var(--border-dark)}}
@@ -1771,19 +1771,19 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	bottom:0;
 	width:8rem;
 	height:1px;
-	background:#e1e3e6
+	background:var(--border-light)
 }
 	@media (prefers-color-scheme: dark){.post-content figure figcaption:after{background:var(--border-dark)}}
 	
 	
 .post-content figure figcaption a{
-	box-shadow:inset 0 -1px 0 #e1e3e6
+	box-shadow:inset 0 -1px 0 var(--border-light)
 }
 	@media (prefers-color-scheme: dark){.post-content figure figcaption a{box-shadow:inset 0 -1px 0 var(--border-dark)}}
 	
 	
 .post-content figure figcaption a:focus,.post-content figure figcaption a:hover{
-	box-shadow:inset 0 -2px 0 #e1e3e6
+	box-shadow:inset 0 -2px 0 var(--border-light)
 }
 	@media (prefers-color-scheme: dark){.post-content figure figcaption a:focus,.post-content figure figcaption a:hover{box-shadow:inset 0 -2px 0 var(--border-dark)}}
 
@@ -1868,7 +1868,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	text-decoration:none;
 	min-height:8em;
 	background:#f7f8fa;
-	border:1px solid #e1e3e6;
+	border:1px solid var(--border-light);
 	box-shadow:none !important;
 	overflow:hidden
 }
@@ -1892,7 +1892,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	line-height:1.66667em;
 	font-weight:700;
 	letter-spacing:0.5px}
-	@media (prefers-color-scheme: dark){.post-content .kg-bookmark-title{color:#e1e3e6}}
+	@media (prefers-color-scheme: dark){.post-content .kg-bookmark-title{color:var(--border-light)}}
 	
 .post-content .kg-bookmark-description{
 	display:-webkit-box;
@@ -1924,7 +1924,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	font-weight:400;
 	margin-top:1em;
 	flex-wrap:wrap}
-	@media (prefers-color-scheme: dark){.post-content .kg-bookmark-metadata{color:#e1e3e6}}
+	@media (prefers-color-scheme: dark){.post-content .kg-bookmark-metadata{color:var(--border-light)}}
 	
 .post-content .kg-bookmark-icon{
 	width:1.33334em;margin:0 0.75em 0 0}
@@ -1956,7 +1956,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	font-size:0.75em;
 	/* font-size: 1.7rem; */
 	background:#f7f8fa;
-	border:1px solid #e1e3e6;
+	border:1px solid var(--border-light);
 	top:-2px;
 	white-space:pre-wrap
 }
@@ -1971,7 +1971,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	font-family:monospace, sans-serif;
 	white-space:pre;
 	background:#f7f8fa;
-	border:1px solid #e1e3e6;
+	border:1px solid var(--border-light);
 	box-sizing:border-box}
 	@media (prefers-color-scheme: dark){.post-content pre{background:#333;border-color:var(--border-dark)}}
 .post-content pre .lines{
@@ -1981,7 +1981,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	left:0;
 	top:0;
 	padding:1.33334em 0;
-	border-right:1px solid #e1e3e6;
+	border-right:1px solid var(--border-light);
 	color:var(--page-colour2);
 	font-size:0.75em;
 	line-height:2em;
@@ -2027,7 +2027,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	display:inline-block;
 	margin-bottom:0.5em;
 	padding:1px 8px;
-	qborder:#e1e3e6 1px solid;
+	qborder:var(--border-light) 1px solid;
 	text-shadow:#FFF 0 1px 0;
 	font-size:0.9em;
 	font-weight:bold;
@@ -2039,10 +2039,10 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	
 	
 .post-content table{
-	position:relative;width:100%;max-width:100%;margin:0 0 4rem;border:1px solid #e1e3e6;background:#f7f8fa}
+	position:relative;width:100%;max-width:100%;margin:0 0 4rem;border:1px solid var(--border-light);background:#f7f8fa}
 	@media (prefers-color-scheme: dark){.post-content table{border-color:var(--border-dark);background:#333}}
 .post-content table td,.post-content table th{
-	position:relative;padding:1.5rem;font-size:0.75em;line-height:1.33334em;border:1px solid #e1e3e6}
+	position:relative;padding:1.5rem;font-size:0.75em;line-height:1.33334em;border:1px solid var(--border-light)}
 	@media (prefers-color-scheme: dark){.post-content table td,.post-content table th{border-color:var(--border-dark)}}
 .post-content table th{
 	text-align:left;font-weight:500;letter-spacing:1px;font-size:0.75em;line-height:1.33334em;color:var(--page-colour2)}
@@ -2135,8 +2135,8 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 .post-nav{
 	position:relative;
 	margin-top:-1px;
-	/* border-top:1px solid #e1e3e6; */
-	border-bottom:1px solid #e1e3e6;
+	/* border-top:1px solid var(--border-light); */
+	border-bottom:1px solid var(--border-light);
 }
 	@media (prefers-color-scheme: dark){.post-nav{border-color:var(--border-dark)}}
 .post-nav:after{
@@ -2145,7 +2145,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	width:1px;
 	height:100%;
 	left:50%;top:0;
-	background:#e1e3e6;
+	background:var(--border-light);
 	z-index:2;
 }
 	@media (prefers-color-scheme: dark){.post-nav:after{background:var(--border-dark)}}
@@ -2184,7 +2184,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	padding:2rem 0;
 	min-height:8rem;
 }
-	@media only screen and (max-width: 640px){.post-nav-teaser{min-height:4em;padding:2em 0}.post-nav-teaser:after{position:absolute;content:'';width:100%;height:1px;left:0;bottom:0;margin-bottom:-1px;background:#e1e3e6;z-index:2}}
+	@media only screen and (max-width: 640px){.post-nav-teaser{min-height:4em;padding:2em 0}.post-nav-teaser:after{position:absolute;content:'';width:100%;height:1px;left:0;bottom:0;margin-bottom:-1px;background:var(--border-light);z-index:2}}
 	@media only screen and (max-width: 640px) and (prefers-color-scheme: dark){.post-nav-teaser:after{background:var(--border-dark)}}
 
 
@@ -2198,7 +2198,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	line-height:4rem;
 	text-align:center;
 	transition:all ease-out 0.2s;
-	color:#e1e3e6;
+	color:var(--border-light);
 	color:#222426;
 	opacity:0.8;
 }
