@@ -881,7 +881,7 @@ span.badge-nightly {
 	/* color:var(--border-inverted); */
 }
 .nav-footer li a:focus,.nav-footer li a:hover{
-	color:var(--border-colour);
+	color:var(--border-inverted);
 }
 
 
