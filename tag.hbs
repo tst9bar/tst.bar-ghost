@@ -8,7 +8,7 @@
 				<span class="archive-type">{{t "Dot"}}</span>
 				<span class="archive-count">{{plural pagination.total empty=(t "No Posts") singular=(t "% Post") plural=(t "% Posts")}}</span>
 			</span>
-			<h2 class="archive-title">{{tag.name}}</h2>
+			<h2 class="archive-title">{{tag.name}}</h2><span class="archive-count">{{plural pagination.total empty=(t "No Posts") singular=(t "% Post") plural=(t "% Posts")}}</span>
 			{{#if tag.description}}
 				<span class="archive-description">{{{tag.description}}}</span>
 			{{/if}}
