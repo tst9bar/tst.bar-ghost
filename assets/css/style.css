@@ -794,12 +794,15 @@ span.badge-nightly {
 			margin-left:0.75em;
 			margin-top:-1px;
 			border-radius:2px;
-			background:var(--border-colour);
+			background:var(--border-inverted);
 		}}
+	@media only screen and (max-width: 640px) and (prefers-color-scheme: dark){.nav-header li a:before{background:var(--border-colour)}} /* make indicator colour always dark */
+	
 .nav-header li a:focus,.nav-header li a:hover{
 	color:var(--border-inverted);
 }
-	/* @media only screen and (max-width: 640px){.nav-header li a:focus,.nav-header li a:hover{color:#c4c7cc}} */ /*make hover similar in both desktop mobile */
+	@media only screen and (max-width: 640px){.nav-header li a:focus,.nav-header li a:hover{color:var(--border-inverted)}}
+	@media only screen and (max-width: 640px) and (prefers-color-scheme: dark){.nav-header li a:focus,.nav-header li a:hover{color:var(--border-colour)}} /* make hover always light */
 	
 	
 /* .nav-header li.nav-facebook,.nav-header li.nav-rss,.nav-header li.nav-search,.nav-header li.nav-subscribe,.nav-header li.nav-twitter{margin-right:1.5rem} */
