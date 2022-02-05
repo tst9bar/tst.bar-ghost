@@ -802,7 +802,7 @@ span.badge-nightly {
 	color:var(--border-inverted);
 }
 	@media only screen and (max-width: 640px){.nav-header li a:focus,.nav-header li a:hover{color:var(--border-inverted)}}
-	@media only screen and (max-width: 640px) and (prefers-color-scheme: dark){.nav-header li a:focus,.nav-header li a:hover{color:var(--border-colour)}} /* make hover always light */
+	@media only screen and (max-width: 640px) and (prefers-color-scheme: dark){.nav-header li a:focus,.nav-header li a:hover{color:var(--border-inverted)}}
 	
 	
 /* .nav-header li.nav-facebook,.nav-header li.nav-rss,.nav-header li.nav-search,.nav-header li.nav-subscribe,.nav-header li.nav-twitter{margin-right:1.5rem} */
