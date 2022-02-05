@@ -148,7 +148,7 @@ html{
 body{
 	min-width: 320px;
 	font:500 1em / 1em 'Times', 'Times New Roman', serif;	/* [] fix line height */
-	color:#222426;
+	color:var(--text-dark);
 	text-rendering:optimizeLegibility;
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
@@ -319,7 +319,7 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 }
 	@media (prefers-color-scheme: light){
 		.blog-name{opacity:0.9}
-		.blog-name a:hover{color: #222426}
+		.blog-name a:hover{color: var(--text-dark)}
 	}
 
 	
@@ -645,7 +645,7 @@ span.badge-nightly {
 
 
 .nav-header .nav-wrapper-control button:focus,.nav-header .nav-wrapper-control button:hover{
-	color:#222426
+	color:var(--text-dark)
 }
 	@media (prefers-color-scheme: dark){.nav-header .nav-wrapper-control button:focus,.nav-header .nav-wrapper-control button:hover{color:var(--border-light)}}
 	
@@ -653,7 +653,7 @@ span.badge-nightly {
 	color:#fafafa
 }
 .menu-active .nav-header .nav-wrapper-control{
-	background:#222426;
+	background:var(--text-dark);
 	color:#909499;
 	border-color:var(--border-dark);
 }
@@ -686,7 +686,7 @@ span.badge-nightly {
 	padding: 2% 5%;	/* not inner, not subject to ori 5% */
 	overflow-y:auto;
 }
-	@media only screen and (max-width: 640px){.nav-header .nav-wrapper{background:#222426;flex-direction:column}
+	@media only screen and (max-width: 640px){.nav-header .nav-wrapper{background:var(--text-dark);flex-direction:column}
 		@supports (-webkit-backdrop-filter: blur(2rem)){
 			.nav-header .nav-wrapper{background:rgba(34,36,38,0.9);-webkit-backdrop-filter:blur(2rem)}
 		}
@@ -1024,7 +1024,7 @@ span.badge-nightly {
 	font-style:normal;
 	font-weight:700;
 	text-indent:-1px;
-	color:#222426;
+	color:var(--text-dark);
 	color:#333;
 	letter-spacing:0;
 }
@@ -1420,7 +1420,7 @@ span.badge-nightly {
 
 /* ---- #### author in post meta -------- */	/* hidden */
 .post-header .post-meta .post-meta-author{
-	color:#222426;	/*dark font colour option for white */
+	color:var(--text-dark);	/*dark font colour option for white */
 	font-weight:500;
 	margin:0;
 }
@@ -1564,7 +1564,7 @@ span.badge-nightly {
 	line-height:1.25em;
 	margin:0 0 4rem;
 	text-rendering:optimizeLegibility;
-	color:#222426;
+	color:var(--text-dark);
 }
 	@media (prefers-color-scheme: dark){.post-content h1,.post-content h2,.post-content h3,.post-content h4,.post-content h5,.post-content h6{color:var(--text-colour)}}
 
@@ -1888,7 +1888,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	@media (prefers-color-scheme: dark){.post-content .kg-bookmark-content{color:var(--page-colour2)}}
 	
 .post-content .kg-bookmark-title{
-	color:#222426;
+	color:var(--text-dark);
 	font-size:0.75em;
 	line-height:1.66667em;
 	font-weight:700;
@@ -1921,7 +1921,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	align-items:center;
 	font-size:0.75em;
 	line-height:1.66667em;
-	color:#222426;
+	color:var(--text-dark);
 	font-weight:400;
 	margin-top:1em;
 	flex-wrap:wrap}
@@ -2200,7 +2200,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	text-align:center;
 	transition:all ease-out 0.2s;
 	color:var(--border-light);
-	color:#222426;
+	color:var(--text-dark);
 	opacity:0.8;
 }
 	@media (prefers-color-scheme: dark){.post-nav i{color:var(--border-dark)}}
@@ -2273,7 +2273,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	transition:all ease 0.2s
 }
 	@media only screen and (max-width: 640px){.post-share a{margin-left:0;margin-right:0.66667em}}
-.post-share a:focus,.post-share a:hover{background-color:#222426}
+.post-share a:focus,.post-share a:hover{background-color:var(--text-dark)}
 	@media (prefers-color-scheme: dark){.post-share a:focus,.post-share a:hover{background-color:#d13f21}}
 .post-share a:last-child{margin-right:0}
 .post-share a i{color:inherit}
