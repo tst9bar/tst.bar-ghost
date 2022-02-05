@@ -765,6 +765,7 @@ span.badge-nightly {
 }
 	@media (prefers-color-scheme: dark){.nav-header li.active a{color:var(--border-inverted)}}
 	@media only screen and (max-width: 640px){.nav-header li.active a{color:var(--text-light)}}
+	
 .nav-header li a{
 	display:block;
 	padding:1rem 0;
@@ -789,17 +790,18 @@ span.badge-nightly {
 			left:0;
 			top:50%;
 			width:0.5em;
-			height:2px;
+			height:1px;
 			margin-left:0.75em;
 			margin-top:-1px;
 			border-radius:2px;
-			background:var(--border-inverted);
-		}
-	}
+			background:var(--border-colour);
+		}}
 .nav-header li a:focus,.nav-header li a:hover{
 	color:var(--border-inverted);
 }
-	@media only screen and (max-width: 640px){.nav-header li a:focus,.nav-header li a:hover{color:#c4c7cc}}
+	/* @media only screen and (max-width: 640px){.nav-header li a:focus,.nav-header li a:hover{color:#c4c7cc}} */ /*make hover similar in both desktop mobile */
+	
+	
 /* .nav-header li.nav-facebook,.nav-header li.nav-rss,.nav-header li.nav-search,.nav-header li.nav-subscribe,.nav-header li.nav-twitter{margin-right:1.5rem} */
 /* .nav-header li.nav-facebook a,.nav-header li.nav-rss a,.nav-header li.nav-search a,.nav-header li.nav-subscribe a,.nav-header li.nav-twitter a{font-size:1.75em} */
 /* .nav-header li.nav-facebook span,.nav-header li.nav-rss span,.nav-header li.nav-search span,.nav-header li.nav-subscribe span,.nav-header li.nav-twitter span{display:none} */
