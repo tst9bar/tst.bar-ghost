@@ -721,6 +721,8 @@ span.badge-nightly {
 	padding:0;
 	list-style:none;
 	font-family:var(--site-font);
+	margin-top:2.5vw;
+	margin-left:2vw;
 }
 	@media only screen and (max-width: 640px){.nav-header ul{flex-direction:column;flex-shrink:0;padding:2rem 0}}
 	
@@ -794,8 +796,7 @@ span.badge-nightly {
 			margin-left:0.75em;
 			margin-top:-1px;
 			border-radius:2px;
-			background:var(--border-inverted);
-		}}
+			background:var(--border-inverted);}}
 	@media only screen and (max-width: 640px) and (prefers-color-scheme: dark){.nav-header li a:before{background:var(--border-colour)}} /* make indicator colour always dark */
 	
 .nav-header li a:focus,.nav-header li a:hover{
