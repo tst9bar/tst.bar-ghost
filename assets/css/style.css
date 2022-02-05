@@ -156,7 +156,7 @@ body{
 	background:#f8f8ff;
 	background:rgb(248,248,248,0.7);
 }
-	@media (prefers-color-scheme: dark){body{background:#333;color:var(--text-colour);font-weight:400}}
+	@media (prefers-color-scheme: dark){body{background:#333;color:var(--text-light);font-weight:400}}
 
 
 button,input,select,textarea{transition:all ease-out 0.2s}
@@ -1566,7 +1566,7 @@ span.badge-nightly {
 	text-rendering:optimizeLegibility;
 	color:var(--text-dark);
 }
-	@media (prefers-color-scheme: dark){.post-content h1,.post-content h2,.post-content h3,.post-content h4,.post-content h5,.post-content h6{color:var(--text-colour)}}
+	@media (prefers-color-scheme: dark){.post-content h1,.post-content h2,.post-content h3,.post-content h4,.post-content h5,.post-content h6{color:var(--text-light)}}
 
 .post-content h1{
 	/* font-size:5.2rem; */
@@ -2231,7 +2231,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	text-overflow:ellipsis;
 	/* color:#000; */
 }
-	@media (prefers-color-scheme: dark){.post-nav-title{color:var(--text-colour)}} /* [] test using inherit */
+	@media (prefers-color-scheme: dark){.post-nav-title{color:var(--text-light)}} /* [] test using inherit */
 	
 	
 .post-nav-excerpt{
