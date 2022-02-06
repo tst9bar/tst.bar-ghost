@@ -1746,6 +1746,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	color:var(--page-colour2);
 	max-width:calc(64rem + 8vw);
 	margin:auto;
+	font-family:var(--text-font);
 	font-size:0.75em;
 	line-height:1em;
 	padding:2rem 0 2rem;
