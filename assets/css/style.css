@@ -963,7 +963,7 @@ span.badge-nightly {
 .container .post .post-box{
 	padding-top:calc((3.2rem * 0.8) + 2vw);
 	padding-bottom:calc((3.2rem * 0.6) + 2vw);
-	border-bottom:1px solid var(--border-colour);
+	/* border-bottom:1px solid var(--border-colour); */
 } /* padding 4rem seems too much to h2 bottom 0.8em */
 	
 	
