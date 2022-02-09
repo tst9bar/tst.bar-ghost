@@ -123,7 +123,7 @@ html{
 	font-size:62.5%;
 	overflow-x:hidden;
 	--site-font: 'Open Sans', 'Lucida Grande', sans-serif;
-	--heading-font: 'AppleGaramondLight', 'datw5', cursive;
+	--heading-font: 'AppleGaramondLight', 'datw5', 'Times', 'Times New Roman', serif;
 	--text-font: 'equity_ot_b', 'creamfont', 'Times', 'Times New Roman', serif;
 	--page-colour: #f8f8ff;
 	--page-colour: rgb(248,248,248,0.7);
