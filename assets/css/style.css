@@ -1014,6 +1014,19 @@ span.badge-nightly {
 	letter-spacing:0;
 }
 	@media (prefers-color-scheme: dark){.post-title{color:var(--text-light)}}
+	
+	
+.post-title:before{
+	position:absolute;
+	width:4rem;
+	height:4rem;
+	left:-4rem;
+	top:0;
+	background:black;
+	text-align:center;
+}
+
+
 .post-title a{
 	text-decoration:none;
 	color:inherit;
