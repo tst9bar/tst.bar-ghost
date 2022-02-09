@@ -1020,7 +1020,7 @@ span.badge-nightly {
 	position:absolute;
 	width:4rem;
 	height:4rem;
-	left:-4rem;
+	left:0;
 	top:0;
 	background:black;
 	text-align:center;
