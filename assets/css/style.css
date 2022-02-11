@@ -2093,7 +2093,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	float:left;
 	display:flex;
 	flex-wrap:wrap;
-	font-size:1.3rem;
+	font-size:1.4rem;
 	line-height:1em;
 	font-family:var(--site-font);
 	letter-spacing: 0.3px;
@@ -2127,8 +2127,9 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 
 .post-info-label{ /* mark for tags */
 	margin-right:0.5em;
+	font-size:1.3rem;
 	line-height:3.1rem;
-	color:var(--page-colour2)
+	color:var(--page-colour2);
 }
 
 
