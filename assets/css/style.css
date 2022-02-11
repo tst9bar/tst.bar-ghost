@@ -667,7 +667,7 @@ span.badge-nightly {
 	border:0;
 	background-color:#D2493F;
 	box-shadow: 0 0px 1px #063F07;
-	}￼
+	}￼ /* red button */
 /* .menu-active .nav-header .nav-wrapper-control .button:hover {
 	box-shadow:none;
 	border: 1px solid #373737;
@@ -834,7 +834,7 @@ span.badge-nightly {
 	position:relative;
 	z-index:20;
 	padding-top:calc(9.3rem + 8vw);
-	padding-bottom:6.2rem;
+	padding-bottom:calc(3.1rem + 2vw);
 	font-family:var(--site-font);
 	font-weight: 400;
 }
@@ -870,6 +870,7 @@ span.badge-nightly {
 	text-align:center;
 	color:rgba(250,250,250,0.3);
 	color:var(--page-colour2);
+	opacity: 0.9;
 }
 .nav-footer li:last-child{
 	/* margin-right:0 */
