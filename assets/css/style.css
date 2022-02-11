@@ -538,7 +538,7 @@ span.badge-nightly {
 	margin: 0;
 }
 .nav-header .nav-wrapper-control .button:before {
-	content:;
+	content: "";
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -665,7 +665,7 @@ span.badge-nightly {
 
 .menu-active .nav-header .nav-wrapper-control .button{
 	border:0;
-	background-color:#D2493F;
+	background-color:#D2493F
 	box-shadow: 0 0px 1px #063F07;
 	}￼
 /* .menu-active .nav-header .nav-wrapper-control .button:hover {
