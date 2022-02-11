@@ -1082,7 +1082,7 @@ span.badge-nightly {
 
 
 	@media only screen and (max-width:428px) and (max-height:926px) and (orientation:portrait){
-		.post-excerpt{font-size:2.2rem; line-height:1.583em}
+		.post-excerpt{font-size:2.2rem; line-height:1.55em}
 		.tag-hash-zh .post-excerpt{font-size:2.20rem; line-height:1.583em; letter-spacing:0.6px;}
 	}	/* 1.55 + * ((100vw - 320px) / (428 - 320)) */
 	
@@ -1537,10 +1537,10 @@ span.badge-nightly {
 }
 
 	@media only screen and (max-width:428px) and (max-height:926px) and (orientation:portrait){
-		.post-content{font-size:2.3rem;line-height:1.4em}
+		.post-content{font-size:2.2rem;line-height:1.4em}
 		.post-content p{margin-bottom:1.4em}
 		
-		.tag-hash-zh .post-content{font-size:2.3rem;line-height:1.583em;letter-spacing:0.6px;}
+		.tag-hash-zh .post-content{font-size:2.2rem;line-height:1.583em;letter-spacing:0.6px;}
 		.tag-hash-zh .post-content p{margin-bottom:1.583em;}
 	}
 	
