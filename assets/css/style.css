@@ -1180,13 +1180,17 @@ span.badge-nightly {
 }
 .pagination .pagination-info{
 	position:absolute;
+	max-width: 680px;
 	width:100%;
 	font-size:1.4rem;
 	line-height:4rem;
 	height:4rem;
 	left:0;
+	right:0;
 	z-index:50;
 	display:block;
+	margin-left: 12.5%; /*fix non-680 issue*/
+	margin-right:auto;
 	text-align:center;
 	color:var(--page-colour2);
 }
