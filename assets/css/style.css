@@ -506,7 +506,7 @@ span.badge-nightly {
 	transition:all linear 0.1s;
 } /* toogle wrapper */
 	@media (prefers-color-scheme: dark){.nav-header .nav-wrapper-control{color:var(--page-colour2)}}
-	@media only screen and (max-width: 640px){.nav-header .nav-wrapper-control{display:block;width:0;padding-top: 2.5%;padding-left:2%;}} /* toggle hidden only if below 640 */
+	@media only screen and (max-width: 640px){.nav-header .nav-wrapper-control{display:block;width:0;padding-top: 2.5%;padding-left:2%;}}
 
 
 .nav-header .nav-wrapper-control .inner{
@@ -538,7 +538,7 @@ span.badge-nightly {
 	margin: 0;
 }
 .nav-header .nav-wrapper-control .button:before {
-	content: "";
+	content:;
 	position: absolute;
 	top: 0;
 	left: 0;
