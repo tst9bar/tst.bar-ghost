@@ -1020,11 +1020,11 @@ span.badge-nightly {
 	
 	
 .post-title::after{
-	
+	content: "<--"
 	position:absolute;
 	width:4rem;
 	height:4rem;
-	top:0;
+	right:0;
 }
 
 
