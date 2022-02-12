@@ -1022,8 +1022,10 @@ span.badge-nightly {
 .post-title::after{
 	content: "<--";
 	position:absolute;
+	font-family: 'Monoton';
 	width:4rem;
 	height:4rem;
+	bottom:0;
 	right:0;
 }
 
