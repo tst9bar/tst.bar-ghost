@@ -1027,7 +1027,7 @@ span.badge-nightly {
 	width:4rem;
 	height:4rem;
 	bottom:0;
-	right:0;
+	right:-4px;
 }
 
 
