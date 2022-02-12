@@ -1020,7 +1020,7 @@ span.badge-nightly {
 	
 	
 .post-title::after{
-	content: "<--"
+	content: "<--";
 	position:absolute;
 	width:4rem;
 	height:4rem;
