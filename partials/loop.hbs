@@ -19,7 +19,7 @@
 				<!-- {{t "typed by"}} {{authors separator=", "}} -->
 				on <time datetime="{{date format='DD-MM-YYYY'}}">{{date format="DD MMMM YYYY"}}</time>
 				{{#has tag="#updated"}} &nbsp; (Updated on <time datetime="{{date format='DD-MM-YYYY'}}">{{date updated_at format="DD MMMM YYYY"}}</time>){{/has}}
-				{{#has tag="#ever"}}<span> &nbsp; (to be updated)</span>{{/has}}
+				{{#has tag="#ever"}}<span style="font-style:italic"> &nbsp; (to be updated)</span>{{/has}}
 				{{#primary_tag}}
 					<span>&nbsp;</span>
 					{{t "⚇"}}
