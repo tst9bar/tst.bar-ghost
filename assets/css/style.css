@@ -507,7 +507,7 @@ span.badge-nightly {
 	transition:all linear 0.1s;
 } /* green toggle wrapper */
 	@media (prefers-color-scheme: dark){.nav-header .nav-wrapper-control{color:var(--page-colour2)}}
-	@media only screen and (max-width: 640px){.nav-header .nav-wrapper-control{display:block;width:0;padding-top: 2.5%;padding-left:2%;}} /* for positioning red button */
+	@media only screen and (max-width: 640px){.nav-header .nav-wrapper-control{display:block;background-color: transparent;width:0;padding-top: 2.5%;padding-left:2%;}} /* for positioning red button */
 
 
 .nav-header .nav-wrapper-control .inner{
