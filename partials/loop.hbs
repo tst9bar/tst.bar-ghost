@@ -31,7 +31,7 @@
 				{{#has tag="#bit, #sm"}}
 					{{{content}}}
 				{{else}}
-					<p>{{{excerpt}}}{{#has tag="#photo"}}{{t " 🏞 "}}{{/has}}{{#has tag="#video"}}{{t " 🎞 "}}{{/has}}{{#has tag="musica"}}{{t " 🎶 𝄞 "}}{{/has}}<span class="post-excerpt-more"> [ <a href="{{url}}">&hellip;mmhmm&hellip;</a> ]</span>
+					<p>{{{excerpt}}}{{#has tag="#photo"}}{{t " 🏞 "}}{{/has}}{{#has tag="#video, musica"}}{{t " 🎞 "}}{{/has}}{{#has tag="#musica"}}{{t " 🎶 𝄞 "}}{{/has}}<span class="post-excerpt-more"> [ <a href="{{url}}">&hellip;mmhmm&hellip;</a> ]</span>
 					</p>
 				{{/has}}
 			</div>
