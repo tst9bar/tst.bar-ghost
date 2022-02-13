@@ -507,7 +507,7 @@ span.badge-nightly {
 	transition:all linear 0.1s;
 } /* green toggle wrapper */
 	@media (prefers-color-scheme: dark){.nav-header .nav-wrapper-control{color:var(--page-colour2)}}
-	@media only screen and (max-width: 640px){.nav-header .nav-wrapper-control{display:block;background-color: black;width:0;padding-top: 2.5%;padding-left:2%;}} /* for positioning red button */
+	@media only screen and (max-width: 640px){.nav-header .nav-wrapper-control{display:block;background-color: transparent;width:0;margin-top: 2.5%;margin-left:2%;}} /* for positioning red button */
 
 
 .nav-header .nav-wrapper-control .inner{
@@ -658,11 +658,13 @@ span.badge-nightly {
 	color:#909499;
 	border-color:var(--border-inverted);
 }
-	@supports (-webkit-backdrop-filter: blur(2rem)){.menu-active .nav-header .nav-wrapper-control{background:rgba(34,36,38,0.9);-webkit-backdrop-filter:blur(2rem)}}
+	@supports (-webkit-backdrop-filter: blur(2rem)){.menu-active .nav-header .nav-wrapper-control{background:rgba(34,36,38,0.9);-webkit-backdrop-filter:blur(2rem)}} /* red button issue */
 	
 .menu-active .nav-header .nav-wrapper-control a:focus,.menu-active .nav-header .nav-wrapper-control button:hover{
 	color:var(--border-light) /* !! [] need always light */
 }
+
+
 
 .menu-active .nav-header .nav-wrapper-control .button{
 	border:0;
@@ -673,10 +675,6 @@ span.badge-nightly {
 	box-shadow:none;
 	border: 1px solid #373737;
 }*/	/* hover state stick with first touch from green */
-
-
-
-
 
 
 .nav-header .nav-wrapper{
