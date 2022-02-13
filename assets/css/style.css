@@ -1757,7 +1757,11 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	display:block;
 	max-width:100%;
 	height:auto;
-	margin:0 0 4rem
+	margin:0 0 4rem;
+	border-radius: 3px;
+	border-style: solid;
+	border-width: 3px 3px 3px 3px;
+	border-image: url(button.svg) 3 3 3 3 stretch stretch;
 }
 .post-content .fluid-width-video-wrapper{
 	margin:0 0 4rem}
