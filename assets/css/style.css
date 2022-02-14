@@ -1057,11 +1057,10 @@ span.badge-nightly {
 .post-meta a{
 	display:inline-block;
 	text-decoration:none;
-	color:inherit
+	color:inherit;
+	transition:all ease-out 0.2s;
 }
-.post-meta a:focus,.post-meta a:hover{
-	text-decoration:underline
-}
+.post-meta a:focus,.post-meta a:hover{color:var(--text-orange);}
 
 
 
