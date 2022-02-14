@@ -996,6 +996,7 @@ span.badge-nightly {
 	z-index:10;
 }
 .post.tag-hash-zh{letter-spacing:0.3px;}
+.post.tag-hash-sm{text-align:right;}
 
 
 /* ---- ### post title <h2> in post <article> at home -------- */
@@ -2378,8 +2379,4 @@ text-orientation:upright;
 
 .test{
 	
-}
-
-.tag-hash-sm{
-	text-align:right;
 }
