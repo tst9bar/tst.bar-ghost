@@ -1761,8 +1761,8 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	border-width: 3px 3px 3px 3px;
 	border-image: url(button.svg) 3 3 3 3 stretch stretch;
 }
-.post-content .fluid-width-video-wrapper{
-	margin:0 0 4rem}
+	@media only screen and (max-width:428px) and (max-height:926px) and (orientation:portrait){
+.post-content img{max-width:90%;}
 	
 	
 .post-content figure figcaption{
