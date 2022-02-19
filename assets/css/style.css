@@ -1438,7 +1438,7 @@ span.badge-nightly {
 
 /* ---- post meta with cover -------- */
 .has-cover .post-meta{
-	color:var(--text-title);
+	color:var(--text-light);
 	padding:0
 }
 
