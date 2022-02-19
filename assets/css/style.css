@@ -832,7 +832,7 @@ span.badge-nightly {
 .nav-footer{
 	position:relative;
 	z-index:20;
-	padding-top:calc(9.3rem + 8vw);
+	padding-top:calc(6.2rem + 4vw);
 	padding-bottom:calc(3.1rem + 2vw);
 	font-family:var(--site-font);
 	font-weight: 400;
@@ -1510,7 +1510,7 @@ span.badge-nightly {
 	line-height:1.55em;
 }	/* 2.3 1.565, 2.4 1.583 */	/* 1.55 + * ((100vw - 320px) / (428 - 320)) */
 	@media (prefers-color-scheme: dark){
-		.post-content{font-size:1.9rem;letter-spacing:0.2px;}}
+		.post-content{font-size:1.9rem;letter-spacing:0.1px;}}
 .post-content p{
 	font-family: var(--text-font);
 	margin:0 0 1.55em;
