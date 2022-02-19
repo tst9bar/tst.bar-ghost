@@ -1867,6 +1867,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	align-items:flex-start;
 	justify-content:start;
 	padding:1.5em;
+	font-family:var(--text-font);
 	color:var(--page-colour2);
 }
 	@media (prefers-color-scheme: dark){.post-content .kg-bookmark-content{color:var(--page-colour2)}}
@@ -1898,7 +1899,13 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	left:0;
 	width:100%;
 	height:100%;
-	object-fit:cover}
+	object-fit:cover;
+	border-radius:0;
+	border-style:none;
+	border-width:0;
+	border-image:none;
+	max-width:100%;
+}
 .post-content .kg-bookmark-metadata{
 	text-rendering:optimizeLegibility;
 	display:flex;
@@ -1910,10 +1917,14 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	margin-top:1em;
 	flex-wrap:wrap}
 	@media (prefers-color-scheme: dark){.post-content .kg-bookmark-metadata{color:var(--border-inverted)}}
-	
 .post-content .kg-bookmark-icon{
-	width:1.33334em;margin:0 0.75em 0 0}
-	
+	width:1.33334em;
+	margin:0 0.75em 0 0;
+	border-radius:0;
+	border-style:none;
+	border-width:0;
+	border-image:none;
+	}
 .post-content .kg-bookmark-author:after{content:"•";margin:0 0.33334em}
 .post-content .kg-bookmark-publisher{color:#e05431}
 	@media (max-width: 640px){
