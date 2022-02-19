@@ -2349,10 +2349,10 @@ text-orientation:upright;
 }
 
 .littlefoot-footnote__button {
-	border-radius:0.4em;
-	margin:0 0.1em 0 -0.1em;
-	font-size:0.8em;
-	top:-0.3em;
+	border-radius:0.4em !important;
+	margin:0 0.1em 0 -0.1em !important;
+	font-size:0.8em !important;
+	top:-0.3em !important;
 }
 .littlefoot-footnote__content {
 	background: rgb(248,248,255) !important; 
