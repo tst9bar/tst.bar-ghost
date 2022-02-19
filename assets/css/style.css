@@ -1853,7 +1853,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	text-decoration:none;
 	min-height:8em;
 	background:#f7f8fa;
-	border:1px solid var(--border-colour);
+	/*border:1px solid var(--border-colour);*/
 	box-shadow:none !important;
 	overflow:hidden
 }
