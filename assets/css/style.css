@@ -84,18 +84,6 @@ font-display: swap;
 src: url('/assets/font/equity_ot_b_bold_italic.woff2') format('woff2');
 }
 
-/* @font-face {
-  font-family: 'MyWebFont';
-  src: url('myfont.woff2') format('woff2'),
-       url('myfont.woff') format('woff'),
-       url('myfont.ttf') format('truetype');
-} */
-/* @font-face{
-	font-family:'Overlock', cursive;
-	font-style:normal;
-	font-weight:700;
-} */
-
 
 .hljs{display:block;color:#66645c;-webkit-text-size-adjust:none}
 .hljs-comment,.diff .hljs-header,.hljs-javadoc{color:#998;font-style:italic}
@@ -127,6 +115,7 @@ html{
 	--text-font: 'equity_ot_b', 'creamfont', 'Times', 'Times New Roman', serif;
 	--page-colour: #f8f8ff;
 	--page-colour: rgb(248,248,248,0.7);
+	--page-inverted: #333;
 	--page-colour2: #909499;
 	--border-colour: #e1e3e6;
 	--border-inverted: #3b3d40;
@@ -141,7 +130,7 @@ html{
 		--page-colour: #333;
 		--text-colour: #fafafa;
 		--border-colour: #3b3d40;
-		--border-inverted: #e1e3e6; /*light*/
+		--border-inverted: #e1e3e6;
 
 	}}
 .menu-active body,html.menu-active{overflow-y:hidden}
@@ -150,15 +139,14 @@ html{
 body{
 	min-width: 320px;
 	font:500 1em / 1em 'Times', 'Times New Roman', serif;	/* [] fix line height */
-	color:var(--text-dark);
+	color:var(--text-colour);
 	text-rendering:optimizeLegibility;
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
 	overflow-x:hidden;
-	background:#f8f8ff;
-	background:rgb(248,248,248,0.7);
+	background:var(--page-colour);
 }
-	@media (prefers-color-scheme: dark){body{background:#333;color:var(--text-light);font-weight:400}}
+	@media (prefers-color-scheme: dark){body{background:var(--page-colour);font-weight:400}}
 
 
 button,input,select,textarea{transition:all ease-out 0.2s}
@@ -277,13 +265,9 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	font-style:normal;
 	font-weight:400;
 	font-size:5.6rem;
-	/* font-size:11.2rem; */
 	line-height: 1.5em;
-	/* color:#000; */
-	/* color: #FF1177; */		
 	letter-spacing:0.07em;
 }
-	/* @media (prefers-color-scheme: dark){.blog-name{color:var(--text-light)}} */
 	/* @media only screen and (max-width: 748px){.blog-name{font-size:5.6rem}} */	
 	/* @media only screen and (min-width: 320px){.blog-name{font-size:calc(56px + (112 - 56) * ((100vw - 320px) / (1024 - 320)))}} */
 	@media only screen and (min-width: 1024px){.blog-name{font-size:11.2rem}}
@@ -291,27 +275,17 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	display:block;
 	-webkit-transform: translateZ(0);
 	text-decoration: none;
-	font-family: Monoton;
-	color: #FF1177;	/* consider revert neon, red light white shawow */
-	/* color: #fff; */
+	color: #FF1177;
 	/* -webkit-transition: all 0.5s; */
 	/* -moz-transition: all 0.5s; */
 	/* transition: all 0.5s; */
-	/* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 140px #FF1177; */
-	/* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177; */
 	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 70px #FF1177, 0 0 75px #fff, 0 0 80px #FF1177;
-	/* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177; */
 	/* -webkit-animation: neon1 1.5s ease-in-out infinite alternate; */
 	/* -moz-animation: neon1 1.5s ease-in-out infinite alternate; */
 	/* animation: neon1 1.5s ease-in-out infinite alternate; */
-
-	
 }
-
-
 .blog-name a:hover {
 	color:#FFF;
-	/* color: #FF1177; */
 	text-shadow:none;
 	/* -webkit-animation: none; */
 	/* -moz-animation: none; */
@@ -319,8 +293,7 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 }
 	@media (prefers-color-scheme: light){
 		.blog-name{opacity:0.9}
-		.blog-name a:hover{color: var(--text-dark)}
-	}
+		.blog-name a:hover{color: var(--text-dark)}}
 
 	
 /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177 */
@@ -360,16 +333,12 @@ button,input,select,textarea{transition:all ease-out 0.2s}
 	text-align:center;
 	font-family: 'AppleGaramondLight', 'Times', serif;
 	display:block;
-	/* margin-top:1rem; */
 	margin:0;
 	padding:0;
 	font-size:2.9rem;
-	/* font-size:3.2rem; */
 	line-height:1.2em;
 	color:var(--page-colour2);
 }
-	
-	
 .has-cover .blog-description{
 	color:var(--text-light)
 }
@@ -387,7 +356,6 @@ span.badge-nightly {
 	font-family:var(--site-font);
 	letter-spacing:0.07em;
 	padding: 0.3em 0.6em;
-	/* margin-left: 18px; */
 	-webkit-transform: rotate(-10deg) translateX(-35%) translateY(-80%);
 	-ms-transform: rotate(-10deg) translateX(-35%) translateY(-80%);
 	transform: rotate(-10deg) translateX(-35%) translateY(-80%);	/* 3 50 50, 5 30 60 */
@@ -1087,9 +1055,8 @@ span.badge-nightly {
 
 	@media only screen and (max-width:428px) and (max-height:926px) and (orientation:portrait){
 		.post-excerpt{font-size:2.2rem; line-height:1.483em}
-		.tag-hash-zh .post-excerpt{font-size:2.20rem; line-height:1.583em; letter-spacing:0.6px;}
-	}	/* 1.55 + * ((100vw - 320px) / (428 - 320)) */
-	
+		.tag-hash-zh .post-excerpt{font-size:2.20rem; line-height:1.583em; letter-spacing:0.5px;}
+	}
 	@media only screen and (max-width:926px) and (max-height:428px) and (orientation:landscape){
 		.post-excerpt{font-size:2.4rem; line-height:1.565em}
 		.tag-hash-zh	 .post-excerpt{font-size:2.4rem; line-height:1.565em}
@@ -1669,6 +1636,7 @@ span.badge-nightly {
 	border-left:0.25rem solid #fa00f9;
 	/* border-color: rgba(0,0,0,0.15); */
 	/* border-width: 0 0 0 7px; */
+	transform: skew(-4deg);
 }
 	@media (prefers-color-scheme: dark){.post-content blockquote{font-size: 1.7rem;font-weight:300;opacity: 0.9;}}
 	@media only screen and (max-width:428px) and (max-height:926px) and (orientation:portrait){
@@ -1862,7 +1830,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 .post-content .kg-bookmark-content{
 	text-rendering:optimizeLegibility;
 	display:flex;
-	flex-direction:column;
+	flex-direction:column; so
 	flex-grow:1;
 	align-items:flex-start;
 	justify-content:start;
