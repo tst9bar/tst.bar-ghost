@@ -394,7 +394,7 @@ span.badge-nightly {
 /* float whole archive-info to right, other dots. count follows idv dot */
 
 
-.archive .archive-info .archive-type{color:var(--text-orange)}
+.archive .archive-info .archive-type{color:var(--text-purple)}
 
 .archive .archive-info .archive-count{position:relative;margin-left:3rem;color:var(--page-colour2)}
 
@@ -1032,7 +1032,7 @@ span.badge-nightly {
 	color:inherit;
 	transition:all ease-out 0.2s;
 }
-.post-meta a:focus,.post-meta a:hover{color:var(--text-orange);}
+.post-meta a:focus,.post-meta a:hover{color:var(--text-purple);}
 
 
 
@@ -1134,7 +1134,7 @@ span.badge-nightly {
 	/* color:#d13f21; */
 	/*color:var(--text-orange);*/
 	border-radius:0;
-	border-color:var(--text-orange);
+	border-color:var(--text-purple);
 }
 .pagination .pagination-prev{
 	float:left;
@@ -2080,9 +2080,9 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 }
 .post-tags a:focus,.post-tags a:hover{
 	/* background:#d13f21; */
-	color:var(--text-orange);
+	color:var(--text-purple);
 	border-radius:0;
-	border-color:var(--text-orange);
+	border-color:var(--text-purple);
 }
 
 .post-info-label{ /* mark for tags */
