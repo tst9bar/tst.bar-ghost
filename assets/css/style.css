@@ -692,7 +692,7 @@ span.badge-nightly {
 	font-family:var(--site-font);
 	/* margin-top:2vw; */
 }
-	@media only screen and (max-width: 640px){.nav-header ul{flex-direction:column;flex-shrink:0;padding:2rem 0 0 calc(2.5% + 2vw)}}
+	@media only screen and (max-width: 640px){.nav-header ul{flex-direction:column;flex-shrink:0;padding:2rem 0 2rem calc(2.5% + 2vw)}}
 	
 .nav-header ul:last-child{
 	justify-content:flex-end
@@ -921,7 +921,7 @@ span.badge-nightly {
 	/* padding:0 6.4rem; */
 }
 	/* @media only screen and (max-width: 640px){.inner{margin:0 5%}} */
-	@media only screen and (max-width: 748px){.inner{margin:0 10% 0 4%}} /* [ ] wrong 5% for 680 */
+	@media only screen and (max-width: 748px){.inner{margin:0 15% 0 4%}} /* [ ] wrong 5% for 680 */
 	
 
 
