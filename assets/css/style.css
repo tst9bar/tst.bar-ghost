@@ -690,10 +690,9 @@ span.badge-nightly {
 	padding:0;
 	list-style:none;
 	font-family:var(--site-font);
-	margin-top:2vw;
-	margin-left:calc(2.5% + 2vw);
+	/* margin-top:2vw; */
 }
-	@media only screen and (max-width: 640px){.nav-header ul{flex-direction:column;flex-shrink:0;padding:2rem 0}}
+	@media only screen and (max-width: 640px){.nav-header ul{flex-direction:column;flex-shrink:0;padding:2rem 0 0 calc(2.5% + 2vw)}}
 	
 .nav-header ul:last-child{
 	justify-content:flex-end
@@ -922,7 +921,7 @@ span.badge-nightly {
 	/* padding:0 6.4rem; */
 }
 	/* @media only screen and (max-width: 640px){.inner{margin:0 5%}} */
-	@media only screen and (max-width: 748px){.inner{margin:0 3% 0 4%}} /* [ ] wrong 5% for 680 */
+	@media only screen and (max-width: 748px){.inner{margin:0 10% 0 4%}} /* [ ] wrong 5% for 680 */
 	
 
 
@@ -1843,7 +1842,9 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	font-size:0.75em;
 	line-height:1.66667em;
 	font-weight:700;
-	letter-spacing:0.5px}
+	letter-spacing:0.5px;
+	opacity: 0.8;
+}
 	@media (prefers-color-scheme: dark){.post-content .kg-bookmark-title{color:var(--border-inverted)}}
 	
 .post-content .kg-bookmark-description{
@@ -1860,7 +1861,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	min-width:33%;
 	max-height:100%}
 .post-content .kg-bookmark-thumbnail img{
-	/*position:absolute;*/
+	/*position:absolute; should be in desktop*/
 	top:0;
 	left:0;
 	width:100%;
