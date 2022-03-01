@@ -923,7 +923,7 @@ span.badge-nightly {
 	/* @media only screen and (max-width: 640px){.inner{margin:0 5%}} */
 	@media only screen and (max-width: 748px){
 		.inner{margin:0 3% 0 4%}/* [ ] wrong 5% for 680 */
-		.tag-hash-zh .inner{margin:0 15% 0 4%}}
+	}
 
 
 /* ---- ### blog containter <div> under wrapper <sec> at home. ignore id #search -------- */
@@ -1487,6 +1487,7 @@ span.badge-nightly {
 	line-height:1.583em;
 	font-size:2.0rem;
 	letter-spacing:0.5px;
+	margin-left: 0 !important;
 }
 	@media only screen and (max-width:428px) and (max-height:926px) and (orientation:portrait){
 		.post-content{font-size:2.1rem;line-height:1.483em;}
