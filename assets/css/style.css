@@ -923,7 +923,7 @@ span.badge-nightly {
 	/* @media only screen and (max-width: 640px){.inner{margin:0 5%}} */
 	@media only screen and (max-width: 748px){
 		.inner{margin:0 3% 0 4%}; /* [ ] wrong 5% for 680 */
-		.hash-zh .inner{margin:0 15% 0 4%}}
+		.tag-hash-zh .inner{margin:0 15% 0 4%}}
 
 
 /* ---- ### blog containter <div> under wrapper <sec> at home. ignore id #search -------- */
