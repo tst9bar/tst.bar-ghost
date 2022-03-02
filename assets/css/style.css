@@ -690,7 +690,8 @@ span.badge-nightly {
 	padding:0;
 	list-style:none;
 	font-family:var(--site-font);
-	/* margin-top:2vw; */
+	padding-top:2vw;
+	padding-left:calc(2.5% + 2vw);
 }
 	@media only screen and (max-width: 640px){.nav-header ul{flex-direction:column;flex-shrink:0;padding:2rem 0 2rem calc(2.5% + 2vw)}}
 	
@@ -923,7 +924,7 @@ span.badge-nightly {
 	/* @media only screen and (max-width: 640px){.inner{margin:0 5%}} */
 	@media only screen and (max-width: 748px){
 		.inner{margin:0 3% 0 4%}/* [ ] wrong 5% for 680 */
-	}
+		.post.tag-hash-zh .inner{margin:0 12% 0 4%}}
 
 
 /* ---- ### blog containter <div> under wrapper <sec> at home. ignore id #search -------- */
