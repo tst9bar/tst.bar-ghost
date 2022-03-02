@@ -1786,7 +1786,7 @@ line-height: 29px;"><span>Make other <span class="stackname">Josefin Slab</span>
 	height:50.625vw; /* set max to 16:9 56.25% of post width 680 , 382.5px   4:3 510px*/
 }
 	@media only screen and (max-width:428px) and (max-height:926px) and (orientation:portrait){.post-content .kg-embed-card{
-	margin-left:-4%; margin-right:-7%;max-width:100%;}}
+	margin-left:-4% !important; margin-right:-7% !important;max-width:100%;}}
 
 .post-content .kg-embed-card>*{
 	margin-left:auto;
