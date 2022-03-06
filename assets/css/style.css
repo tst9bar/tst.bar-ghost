@@ -1268,7 +1268,7 @@ span.badge-nightly {
 /* ---- ### post <header> in individual post -------- */
 .post-header{
 	position:relative;
-	padding:calc(8rem + 4vw) 0 calc(2rem + 2vw);
+	padding:calc(8rem + 6vw) 0 calc(2rem + 2vw);
 	/*margin-top:14px;*/
 }
 	/* @media only screen and (min-width: 1024px){.post-header{margin-top:28px}} */
