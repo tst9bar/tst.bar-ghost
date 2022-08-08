@@ -1633,6 +1633,9 @@ span.badge-nightly {
 	/* border-width: 0 0 0 7px; */
 	transform: skew(-4deg);
 }
+.post-content blockquote p{
+	transform: skew(2deg);
+}
 	@media (prefers-color-scheme: dark){.post-content blockquote{font-size: 1.7rem;font-weight:300;opacity: 0.9;}}
 	@media only screen and (max-width:428px) and (max-height:926px) and (orientation:portrait){
 		.post-content blockquote{
