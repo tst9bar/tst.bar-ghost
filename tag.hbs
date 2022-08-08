@@ -4,13 +4,12 @@
 <header class="blog-header{{#if tag.feature_image}} has-cover{{else}}{{#if @site.cover_image}} has-cover{{/if}}{{/if}}">
 	<div class="inner">
 		<div class="archive archive-tag box archive-box">
-			<span class="archive-info">
-				<span class="archive-type">{{t "Dot"}}</span>
+			<h2 class="archive-title">{{tag.name}}
 				<span class="archive-count">{{plural pagination.total empty=(t "No Posts") singular=(t "% Post") plural=(t "% Posts")}}</span>
-			</span>
-			<h2 class="archive-title">{{tag.name}}</h2><span class="archive-count">{{plural pagination.total empty=(t "No Posts") singular=(t "% Post") plural=(t "% Posts")}}</span>
+			</h2>
+			<a title="{{t "My Other Areas of Interest"}}" class="archive-other" href="/mark/">other marks</a>
 			{{#if tag.description}}
-				<span class="archive-description">{{{tag.description}}}</span>
+			<span class="archive-description">{{{tag.description}}}</span>
 			{{/if}}
 		</div>
 
@@ -40,12 +39,8 @@
 	</div>
 </header>
 
-<div id="index" class="container">
-
+<div class="container">
 	<main class="content" role="main">
-
 		{{> "loop"}}
-
 	</main>
-
 </div>
