@@ -9,23 +9,13 @@
 			{{#has tag="#up"}}
 			<h2 class="post-title draft"><a href="{{url}}">{{t "[Draft] "}}{{{title}}}</a></h2>
 			{{else}}
-				{{#has tag="#sm"}}
-				<h2 class="post-title" style="display: none"><a href="{{url}}">{{{title}}}</a></h2>
-				{{else}}
-				<h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
-				{{/has}}
+			<h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
 			{{/has}}
 			<div class="post-meta">
 				<!-- {{t "typed by"}} {{authors separator=", "}} -->
 				on <time datetime="{{date format='DD-MM-YYYY'}}">{{date format="DD MMMM YYYY"}}</time>
 				{{#has tag="#updated"}} &nbsp; (Updated on <time datetime="{{date format='DD-MM-YYYY'}}">{{date updated_at format="DD MMMM YYYY"}}</time>){{/has}}
 				{{#has tag="#ever"}}<span style="font-style:italic;font-size:1.3rem"> &nbsp; (to be updated)</span>{{/has}}
-				{{#primary_tag}}
-					<span>&nbsp;</span>
-					{{t "⚇"}}
-					<span>&nbsp;</span>
-					<a class="post-meta-tag" href="{{url}}">{{name}}</a>
-				{{/primary_tag}}
 			</div>
 			<div class="post-excerpt">
 				{{#has tag="#bit, #sm"}}
