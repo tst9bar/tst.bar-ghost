@@ -19,7 +19,7 @@
 	</div>
 </header>
 
-<main id="page-hdn-content" class="content" role="main">
+<main id="page-headnote-content" class="content" role="main">
 	<article class="{{post_class}}">
 		<div class="inner">
 			<section class="post-content blog-box">
@@ -31,10 +31,10 @@
 
 {{/post}}
 
-{{#get "posts" limit="all" include="tags,authors" filter="tag:hash-hdn"}}
-	<div id="index-page-hdn" class="container">
+{{#get "posts" limit="all" include="tags,authors" filter="tag:headnote"}}
+	<div id="index-page-headnote" class="container">
 		<main class="content" role="main">
-			{{> "loop-hdn"}}
+			{{> "loop-headnote"}}
 		</main>
 	</div>
 {{/get}}
