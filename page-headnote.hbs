@@ -1,7 +1,6 @@
 {{!< default}}
 
 {{#post}}
-
 <header class="post-header {{#if feature_image}} has-cover {{/if}}">
 	<div class="inner">
 		<h1 class="post-title">{{{title}}}</h1>
@@ -28,7 +27,6 @@
 		</div>
 	</article>
 </main>
-
 {{/post}}
 
 {{#get "posts" limit="all" include="tags,authors" filter="tag:headnote"}}
@@ -38,7 +36,6 @@
 		</main>
 	</div>
 {{/get}}
-
 
 
 {{!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs --}}
