@@ -1017,7 +1017,7 @@ span.badge-nightly {
 /* ---- ### post meta <span> for date author primary tag at home. -------- */
 .post-meta{
 	margin: 0 0 0;	/* span has no top bottom margin. either rely header bottom or excerpt top */	/* post-meta in <div> in individual */
-	font-size:1rem;
+	font-size:1.4rem;
 	line-height:1em;
 	font-family:var(--site-font);
 	font-weight:700;
